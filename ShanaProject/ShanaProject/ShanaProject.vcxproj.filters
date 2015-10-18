@@ -780,5 +780,889 @@
     <Image Include="resource\A2ポスター用完成品.jpg">
       <Filter>resource</Filter>
     </Image>
+    <Image Include="resource\Chilha_Logo_b.dds">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\red.dds">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\途中データ1.dds">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\ShanaProject.ico">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\A2ポスター扉.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\玻璃壇.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\玻璃壇_仕上げ_第1段階_大.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\玻璃壇_仕上げ_第2段階_大.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\玻璃壇光.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\ARCADE.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\ARCADE_a.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\ARCADE_b.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\back_black.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem1.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem1_1.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem1_2.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem1_3.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem1_4.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem2.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem4.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem5.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem5_1.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem5_2.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem5_3.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem6.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem6_1.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem6_2.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem6_3.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem7.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem7_1.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem7_2.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem8.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem9.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\BattleMenuItem10.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Chilha_Logo_b.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\combo_font_a_0.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\combo_font_a_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\combo_font_a_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\combo_font_a_3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\combo_font_a_4.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\combo_font_a_5.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\combo_font_a_6.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\combo_font_a_7.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\combo_font_a_8.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\combo_font_a_9.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\combo_font_hit.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\COPYRIGHT.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\ef_Airdash_front.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\ef_Airdash_front_back.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\EXIT.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\EXIT_a.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\EXIT_b.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\f01.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\f02.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Flash.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\frame_p_gauge_center.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\frame_p_gauge_side.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\frame_p_gauge_side_add1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\frame_p_gauge_side_add2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\frame_s_gauge.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\g_gauge_empty.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\g_gauge_normal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Guard0090.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Guard0091.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Guard0092.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Guard0093.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Guard0094.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Guard0095.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Guard0096.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Guard0097.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Guard0098.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Guard0099.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0001.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0002.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0003.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0004.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0005.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0006.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0007.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0008.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0009.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0010.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0011.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0012.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0013.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0014.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0015.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0016.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0017.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0018.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0019.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0020.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0021.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0022.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0023.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0024.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0025.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0026.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0027.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0028.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0029.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0030.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0031.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0032.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0033.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0034.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0035.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0036.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0037.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0038.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0039.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0040.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0041.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0042.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0043.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0044.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\GuardCancel1_0045.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\hit_Upper_0001.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\hit_Upper_0002.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\hit_Upper_0003.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\hit_Upper_0004.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\hit_Upper_0005.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\hit_Upper_0006.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Hit0001.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Hit0002.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Hit0003.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Hit0004.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Hit0005.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Hit0006.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\OPTION.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\OPTION_a.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\OPTION_b.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\p_gauge_empty.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\p_gauge_normal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\REIJI-MAIGO_Grow.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\s_gauge_empty.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\s_gauge_full.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\s_gauge_normal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SelectChar_Sya001_01.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SelectChar_Wil001_01.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff_001.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff_002.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff_003.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff_004.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff001.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff002.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff003.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff004.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff005.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff006.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff007.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff008.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff009.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff010.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff011.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff012.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff013.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff014.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff101.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff102.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff103.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff104.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff105.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff106.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff107.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff108.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff109.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff110.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff111.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff112.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff113.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_303_eff114.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff001.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff002.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff003.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff004.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff005.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff006.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff007.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff008.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff101.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff102.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff103.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff104.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff105.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff106.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff107.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_308_eff108.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_408_eff001.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_408_eff002.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_408_eff003.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_408_eff004.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_408_eff005.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_408_eff006.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_408_eff007.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_0001.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_0002.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0001.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0002.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0003.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0004.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0005.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0006.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0007.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0008.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0009.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0010.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0011.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0012.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0013.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0014.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0015.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0016.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0017.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0018.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0019.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0020.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0021.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0022.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0023.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0024.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0025.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0026.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0027.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0028.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0029.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_02_0030.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_0003.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_0004.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_0005.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\shana_802_eff_0006.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\syougekiha.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Title.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_red.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_reload.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0001.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0002.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0003.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0004.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0005.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0006.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0007.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0008.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0009.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0010.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0011.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0012.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0013.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0014.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0015.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\title_zan_anime_0016.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\TitleB.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\TRAINING.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\TRAINING_a.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\TRAINING_b.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\VER.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\VERSUS.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\VERSUS_a.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\VERSUS_b.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\win_mark.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\ZAN.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\ZAN02.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\タイムフォント0.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\タイムフォント1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\タイムフォント2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\タイムフォント3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\タイムフォント4.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\タイムフォント5.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\タイムフォント6.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\タイムフォント7.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\タイムフォント8.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\タイムフォント9.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\空対地EF.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\空対地EF2-.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\空対地EF3-.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\自在式_TIME_nontime_in.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\自在式_TIME_nontime_out.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\存在ゲージ身.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\存在ゲージ枠.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\体力ゲージ案2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\体力ゲージ身.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\体力ゲージ枠.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\途中データ.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\途中データ1.PNG">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\途中データ1_back.PNG">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\j.act">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\shana2p.act">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\testtest.act">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\コピー ～ shana2p.act">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\Thumbs.db">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\ShanaProject.ex_">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\moetan.mqo">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\testX1.mqo">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\title_red.png.psd">
+      <Filter>resource</Filter>
+    </None>
   </ItemGroup>
 </Project>
