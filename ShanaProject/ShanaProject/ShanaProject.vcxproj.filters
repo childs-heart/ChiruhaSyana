@@ -16,6 +16,9 @@
     <Filter Include="MyLib">
       <UniqueIdentifier>{c4b38880-4649-40bd-b21d-0b3564d6aed5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ai">
+      <UniqueIdentifier>{e0e81042-34a0-4378-b6d0-47c6a04acefb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
@@ -289,6 +292,108 @@
     </ClCompile>
     <ClCompile Include="my_lib\CLIB_Util.cpp">
       <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_ACT_Back.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_ACT_Crouch.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_ACT_DushBack.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_ACT_DushForward.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_ACT_Forward.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_ACT_HighAttack.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_ACT_Jump.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_ACT_JumpBack.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_ACT_JumpForward.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_ACT_LowAttack.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_ACT_MidAttack.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_ACT_NotAction.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_ACT_Stop.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_Action.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_Action_Shana.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_Combo.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_Command.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_CommandShana.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_Condition.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_Cost.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_Go.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_Table.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_Table_Shana.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_TRI_And.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_TRI_Equal.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_TRI_Over.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_TRI_Test.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_TRI_Under.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_TRI_Value.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_TRI_Width.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_Trigger.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAI_Trigger_Shana.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAITableFactory.cpp">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="text_analy\CAITableFactoryShana.cpp">
+      <Filter>ai</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -564,6 +669,108 @@
     </ClInclude>
     <ClInclude Include="my_lib\CLIB_Util.h">
       <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_ACT_Back.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_ACT_Crouch.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_ACT_DushBack.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_ACT_DushForward.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_ACT_Forward.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_ACT_HighAttack.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_ACT_Jump.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_ACT_JumpBack.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_ACT_JumpForward.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_ACT_LowAttack.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_ACT_MidAttack.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_ACT_NotAction.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_ACT_Stop.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_Action.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_Action_Shana.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_Combo.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_Command.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_CommandShana.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_Condition.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_Cost.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_Go.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_Table.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_Table_Shana.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_TRI_And.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_TRI_Equal.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_TRI_Over.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_TRI_Test.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_TRI_Under.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_TRI_Value.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_TRI_Width.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_Trigger.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAI_Trigger_Shana.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAITableFactory.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="text_analy\CAITableFactoryShana.h">
+      <Filter>ai</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

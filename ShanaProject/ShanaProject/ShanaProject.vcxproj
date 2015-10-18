@@ -88,6 +88,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\text_analy;.\my_lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -223,6 +224,40 @@
     <ClCompile Include="SpGauge.cpp" />
     <ClCompile Include="SysLogo2.cpp" />
     <ClCompile Include="TestX.cpp" />
+    <ClCompile Include="text_analy\CAITableFactory.cpp" />
+    <ClCompile Include="text_analy\CAITableFactoryShana.cpp" />
+    <ClCompile Include="text_analy\CAI_Action.cpp" />
+    <ClCompile Include="text_analy\CAI_Action_Shana.cpp" />
+    <ClCompile Include="text_analy\CAI_ACT_Back.cpp" />
+    <ClCompile Include="text_analy\CAI_ACT_Crouch.cpp" />
+    <ClCompile Include="text_analy\CAI_ACT_DushBack.cpp" />
+    <ClCompile Include="text_analy\CAI_ACT_DushForward.cpp" />
+    <ClCompile Include="text_analy\CAI_ACT_Forward.cpp" />
+    <ClCompile Include="text_analy\CAI_ACT_HighAttack.cpp" />
+    <ClCompile Include="text_analy\CAI_ACT_Jump.cpp" />
+    <ClCompile Include="text_analy\CAI_ACT_JumpBack.cpp" />
+    <ClCompile Include="text_analy\CAI_ACT_JumpForward.cpp" />
+    <ClCompile Include="text_analy\CAI_ACT_LowAttack.cpp" />
+    <ClCompile Include="text_analy\CAI_ACT_MidAttack.cpp" />
+    <ClCompile Include="text_analy\CAI_ACT_NotAction.cpp" />
+    <ClCompile Include="text_analy\CAI_ACT_Stop.cpp" />
+    <ClCompile Include="text_analy\CAI_Combo.cpp" />
+    <ClCompile Include="text_analy\CAI_Command.cpp" />
+    <ClCompile Include="text_analy\CAI_CommandShana.cpp" />
+    <ClCompile Include="text_analy\CAI_Condition.cpp" />
+    <ClCompile Include="text_analy\CAI_Cost.cpp" />
+    <ClCompile Include="text_analy\CAI_Go.cpp" />
+    <ClCompile Include="text_analy\CAI_Table.cpp" />
+    <ClCompile Include="text_analy\CAI_Table_Shana.cpp" />
+    <ClCompile Include="text_analy\CAI_Trigger.cpp" />
+    <ClCompile Include="text_analy\CAI_Trigger_Shana.cpp" />
+    <ClCompile Include="text_analy\CAI_TRI_And.cpp" />
+    <ClCompile Include="text_analy\CAI_TRI_Equal.cpp" />
+    <ClCompile Include="text_analy\CAI_TRI_Over.cpp" />
+    <ClCompile Include="text_analy\CAI_TRI_Test.cpp" />
+    <ClCompile Include="text_analy\CAI_TRI_Under.cpp" />
+    <ClCompile Include="text_analy\CAI_TRI_Value.cpp" />
+    <ClCompile Include="text_analy\CAI_TRI_Width.cpp" />
     <ClCompile Include="Timer.cpp" />
     <ClCompile Include="TitleFlash.cpp" />
     <ClCompile Include="TitleLogo.cpp" />
@@ -316,6 +351,40 @@
     <ClInclude Include="SpGauge.h" />
     <ClInclude Include="SysLogo2.h" />
     <ClInclude Include="TestX.h" />
+    <ClInclude Include="text_analy\CAITableFactory.h" />
+    <ClInclude Include="text_analy\CAITableFactoryShana.h" />
+    <ClInclude Include="text_analy\CAI_Action.h" />
+    <ClInclude Include="text_analy\CAI_Action_Shana.h" />
+    <ClInclude Include="text_analy\CAI_ACT_Back.h" />
+    <ClInclude Include="text_analy\CAI_ACT_Crouch.h" />
+    <ClInclude Include="text_analy\CAI_ACT_DushBack.h" />
+    <ClInclude Include="text_analy\CAI_ACT_DushForward.h" />
+    <ClInclude Include="text_analy\CAI_ACT_Forward.h" />
+    <ClInclude Include="text_analy\CAI_ACT_HighAttack.h" />
+    <ClInclude Include="text_analy\CAI_ACT_Jump.h" />
+    <ClInclude Include="text_analy\CAI_ACT_JumpBack.h" />
+    <ClInclude Include="text_analy\CAI_ACT_JumpForward.h" />
+    <ClInclude Include="text_analy\CAI_ACT_LowAttack.h" />
+    <ClInclude Include="text_analy\CAI_ACT_MidAttack.h" />
+    <ClInclude Include="text_analy\CAI_ACT_NotAction.h" />
+    <ClInclude Include="text_analy\CAI_ACT_Stop.h" />
+    <ClInclude Include="text_analy\CAI_Combo.h" />
+    <ClInclude Include="text_analy\CAI_Command.h" />
+    <ClInclude Include="text_analy\CAI_CommandShana.h" />
+    <ClInclude Include="text_analy\CAI_Condition.h" />
+    <ClInclude Include="text_analy\CAI_Cost.h" />
+    <ClInclude Include="text_analy\CAI_Go.h" />
+    <ClInclude Include="text_analy\CAI_Table.h" />
+    <ClInclude Include="text_analy\CAI_Table_Shana.h" />
+    <ClInclude Include="text_analy\CAI_Trigger.h" />
+    <ClInclude Include="text_analy\CAI_Trigger_Shana.h" />
+    <ClInclude Include="text_analy\CAI_TRI_And.h" />
+    <ClInclude Include="text_analy\CAI_TRI_Equal.h" />
+    <ClInclude Include="text_analy\CAI_TRI_Over.h" />
+    <ClInclude Include="text_analy\CAI_TRI_Test.h" />
+    <ClInclude Include="text_analy\CAI_TRI_Under.h" />
+    <ClInclude Include="text_analy\CAI_TRI_Value.h" />
+    <ClInclude Include="text_analy\CAI_TRI_Width.h" />
     <ClInclude Include="Timer.h" />
     <ClInclude Include="TitleFlash.h" />
     <ClInclude Include="TitleLogo.h" />
