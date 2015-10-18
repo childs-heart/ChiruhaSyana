@@ -146,7 +146,7 @@
     <Text Include="Text1.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\ShanaProject\ShanaProject\CChaRibbon.h" />
+    <ClInclude Include="..\..\..\..\shanaprojectt\ShanaProject\DsoundMain.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

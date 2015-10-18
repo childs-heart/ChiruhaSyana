@@ -23,7 +23,7 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\ShanaProject\ShanaProject\CChaRibbon.h">
+    <ClInclude Include="..\..\..\..\shanaprojectt\ShanaProject\DsoundMain.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
