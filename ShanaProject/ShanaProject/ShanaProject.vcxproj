@@ -146,9 +146,6 @@
     <Text Include="Text1.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\shanaprojectt\ShanaProject\DsoundMain.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="BattleMenu.cpp" />
     <ClCompile Include="CAI_ACT_Combo.cpp" />
     <ClCompile Include="CAI_ACT_UsageCombo.cpp" />

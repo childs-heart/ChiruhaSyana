@@ -23,11 +23,6 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\shanaprojectt\ShanaProject\DsoundMain.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="BattleMenu.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
