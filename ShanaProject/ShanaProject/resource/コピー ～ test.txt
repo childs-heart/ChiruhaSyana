@@ -1,0 +1,13 @@
+{TRIGGER}
+width < 200
+{COST}
+100
+{ACTION}
+Back
+
+{TRIGGER}
+width > 410
+{COST}
+50
+{ACTION}
+DushForward

@@ -1,0 +1,99 @@
+[COMMAND]
+name = combo1
+command = 1D,DF,F,Fa
+time = 25
+
+:STATUS1
+[TRIGGER]
+1 = 1
+[COST]
+100
+[ACTION]
+NoAction
+[GO]
+STATUS2
+
+:STATUS2
+[TRIGGER]
+1 = 1
+[COST]
+100
+[ACTION]
+combo1
+
+
+:STATUS3
+[TRIGGER]
+width < 100
+[COST]
+5
+[ACTION]
+LowAttack
+
+[TRIGGER]
+width < 100
+[COST]
+10
+[ACTION]
+MidAttack
+
+[TRIGGER]
+width < 100
+[COST]
+20
+[ACTION]
+HighAttack
+
+[TRIGGER]
+width < 20
+[COST]
+10
+[ACTION]
+LowAttack
+
+[TRIGGER]
+width > 100
+[COST]
+50
+[ACTION]
+Forward
+
+[TRIGGER]
+width < 100
+[COST]
+10
+[ACTION]
+DushBack
+
+[TRIGGER]
+width > 399
+[COST]
+70
+[ACTION]
+DushForward
+
+[TRIGGER]
+width > 10
+[COST]
+100
+[ACTION]
+Stop
+
+:EVERY
+[TRIGGER]
+damage
+[COST]
+100
+[ACTION]
+DushForward
+
+[TRIGGER]
+width > 410
+[COST]
+50
+[ACTION]
+DushForward
+
+{COMBO_01}
+WAIT,RAND(10)+10
+PUNCH
