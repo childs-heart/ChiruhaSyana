@@ -18,5 +18,13 @@
     <Text Include="Text.txt">
       <Filter>リソース ファイル</Filter>
     </Text>
+    <Text Include="Text1.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\shanaprojectt\ShanaProject\DsoundMain.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
