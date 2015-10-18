@@ -19,6 +19,9 @@
     <Filter Include="ai">
       <UniqueIdentifier>{e0e81042-34a0-4378-b6d0-47c6a04acefb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{3c76369f-39da-44dc-9c2a-155648c8d122}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
@@ -772,5 +775,10 @@
     <ClInclude Include="text_analy\CAITableFactoryShana.h">
       <Filter>ai</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\A2ポスター用完成品.jpg">
+      <Filter>resource</Filter>
+    </Image>
   </ItemGroup>
 </Project>

@@ -397,6 +397,9 @@
     <ClInclude Include="UTL_SoundManager.h" />
     <ClInclude Include="WilProt.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\A2ポスター用完成品.jpg" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
