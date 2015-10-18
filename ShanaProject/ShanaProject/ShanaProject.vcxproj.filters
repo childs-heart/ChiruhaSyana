@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="MyLib">
+      <UniqueIdentifier>{c4b38880-4649-40bd-b21d-0b3564d6aed5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt">
@@ -241,6 +244,51 @@
     </ClCompile>
     <ClCompile Include="WilProt.cpp">
       <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_Anime.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_Command.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_D3DDraw.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_D3DDraw2.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_D3DDraw3.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_D3DMain.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_DispObj.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_Element.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_FPS.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_Input.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_Mesh.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_Movie.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_Sprite.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_Texture.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="my_lib\CLIB_Util.cpp">
+      <Filter>MyLib</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -471,6 +519,51 @@
     </ClInclude>
     <ClInclude Include="WilProt.h">
       <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_Anime.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_Command.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_D3DDraw.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_D3DDraw2.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_D3DDraw3.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_D3DMain.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_DispObj.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_Element.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_FPS.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_Input.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_Mesh.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_Movie.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_Sprite.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_Texture.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="my_lib\CLIB_Util.h">
+      <Filter>MyLib</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
