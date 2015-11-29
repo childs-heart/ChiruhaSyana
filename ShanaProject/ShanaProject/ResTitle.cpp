@@ -1,3 +1,5 @@
+#if 0 //–¢Žg—p
+
 #include "ResBattle.h"
 #include "UTL_Screen.h"
 
@@ -38,3 +40,4 @@ void CResBattle::SetUtilScreen(CUtlScreen *screen)
 {
 	m_Screen = screen;
 }
+#endif

@@ -1,4 +1,5 @@
 #pragma once
+#if 0 //–¢Žg—p
 
 #include "ResGame.h"
 
@@ -33,3 +34,4 @@ public:
 	CCommonData		*m_CommonUtilScreen;
 
 };
+#endif

@@ -1,4 +1,4 @@
-#include "CAI_ACT_DushForward.h"
+#include "CAI_ACT_Crouch.h"
 #include "Stdio.h"
 #include "ShanaProt.h"
 
@@ -7,10 +7,10 @@
 /////////////////////////////
 // ÉAÉNÉVÉáÉì
 /////////////////////////////
-int CACTDushForward::Run()
+int CACTCrouch::Run()
 {
 
-	m_Target->SetAIInput( COMMAND_FORWARD, 1 );
+	m_Target->SetAIInput( COMMAND_NONE, 1 );// çÏÇËÇ©ÇØ
 
 	return 0;
 }

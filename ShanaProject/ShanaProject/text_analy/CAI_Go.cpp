@@ -1,4 +1,7 @@
-#include "CAI_Combo.h"
+#include "CAI_Go.h"
+
+#if 0 // çÏÇËÇ©ÇØ
+
 #include <stdlib.h>
 #include <string.h>
 #include <memory.h>
@@ -26,3 +29,4 @@ void CAICombo::Add( char * name )
 CAICombo::~CAICombo()
 {
 }
+#endif

@@ -6,7 +6,7 @@
 /////////////////////////////
 class CNpcAIShana;
 
-class CACTDushForward:public CAIAction
+class CACTCrouch:public CAIAction
 {
 protected:
 public:
