@@ -5,7 +5,7 @@
 #define SETTTING_WND_HEIGHT	338
 
 // ini ファイルロード時のデフォルト 
-#define PRIVATE_PROFILE_DEFAULT_STRING	_T("ERROR")
+#define PRIVATE_PROFILE_DEFAULT_STRING	TEXT("ERROR")
 
 ////////////////////////////////////////////////////////////////////
 // メッセージID 

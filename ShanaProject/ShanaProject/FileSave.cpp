@@ -1,6 +1,8 @@
-#include "StdAfx.h"
+//#include "StdAfx.h"
+//#include "Stdafx.h"
 #include ".\filesave.h"
 #include "common.h"
+#include "tchar.h"
 
 #include <shlwapi.h>
 #pragma comment( lib, "shlwapi.lib" )
@@ -64,7 +66,7 @@ HRESULT CFileSave::MakeSection( const LPTSTR pszSection )
 	if ((strlen(m_strFilePath) == 0) || (pszSection == NULL) )
 		return E_FAIL;
 
-	BOOL bRet = WritePrivateProfileSection( pszSection, _T(""), m_strFilePath );
+	BOOL bRet = WritePrivateProfileSection( pszSection, TEXT(""), m_strFilePath );
 
 	if( bRet != TRUE )
 		return E_FAIL;

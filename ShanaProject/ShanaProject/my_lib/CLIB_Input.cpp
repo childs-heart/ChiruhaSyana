@@ -1,5 +1,6 @@
 // Input関係
-#include "stdafx.h"
+//#include "stdafx.h"
+#include "Stdafx.h"
 #include "CLIB_Input.h"
 #include <dinput.h>		//インプット用
 

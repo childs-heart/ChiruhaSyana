@@ -16,8 +16,10 @@ void CAICombo::Add( char * name )
 	if( name[0] == '}' ){
 		// ŽŸ‚ÌƒAƒNƒVƒ‡ƒ“‚Ö
 	}
-		strcpy( m_ConditionName , name );
-		m_TableNo = tableNo;
+	else
+	{
+		//strcpy( m_ConditionName , name );
+		//m_TableNo = tableNo;
 	}
 }
 
