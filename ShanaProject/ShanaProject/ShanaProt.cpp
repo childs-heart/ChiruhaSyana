@@ -2266,6 +2266,12 @@ int CShanaProt::IsCollisioned( CSprite *target )
 	StMotionData	*wound;
 
 	attack = target->GetAnime()->GetCurrentMotion();
+
+	// TBD　アニメ全部実装されるまで。
+	if (attack == 0) {
+		return 0;
+	}
+
 	wound = m_Anime.GetCurrentMotion();
 
 	target->GetPosition( &destbaseX, &destbaseY);//

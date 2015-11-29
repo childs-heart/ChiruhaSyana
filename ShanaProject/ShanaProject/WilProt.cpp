@@ -424,15 +424,15 @@ bool CWilProt::Move()
 
 			if( ( m_AirIncrease <= 2.0f ) &&
 				( m_AirIncrease > 1.0f ) ){
-				ChangeAnime( 25 , 0 ) ;
+//TBD				ChangeAnime( 25 , 0 ) ;
 			}
 			if( ( m_AirIncrease <= 1.0f ) &&
 				( m_AirIncrease > 0.0f ) ){
-				ChangeAnime( 25 , 0 ) ;
+//TBD				ChangeAnime( 25 , 0 ) ;
 			}
 			if( ( m_AirIncrease <= -2.0f ) &&
 				( m_AirIncrease > -4.0f ) ){
-				ChangeAnime( 27 , 0 ) ;
+//TBD				ChangeAnime( 27 , 0 ) ;
 			}
 
 			if( m_Y > m_FieldY ){
@@ -451,11 +451,11 @@ bool CWilProt::Move()
 
 			if( ( m_AirIncrease <= 1.0f ) &&
 				( m_AirIncrease > 0.0f ) ){
-				ChangeAnime( 57 , 0 ) ;
+//TBD				ChangeAnime( 57 , 0 ) ;
 			}
 			if( ( m_AirIncrease <= -2.0f ) &&
 				( m_AirIncrease > -4.0f ) ){
-				ChangeAnime( 58 , 0 ) ;
+//TBD				ChangeAnime( 58 , 0 ) ;
 			}
 
 			if( m_Y > m_FieldY ){
@@ -580,7 +580,7 @@ bool CWilProt::Move()
 
 		case ENUM_TESTCHAR_STATE_THROW:
 			if( m_Flame == 20 ){
-				ChangeAnime( 51, 0 ) ;
+//TBD				ChangeAnime( 51, 0 ) ;
 			}
 			if( m_Flame == 35 ){
 				new(m_ResBattle->m_CommonEffectFront) CEffHit001( m_ResBattle, m_Target );
@@ -588,7 +588,7 @@ bool CWilProt::Move()
 				m_Target->m_ReceiveAttackTemplateState = ENUM_TESTCHAR_STATE_BIG_DAMAGE;
 			}
 			if( m_Flame == 60 ){
-				ChangeAnime( 52, 0 ) ;
+//TBD				ChangeAnime( 52, 0 ) ;
 			}
 			if( m_Flame > 68 ){
 				ChangeState( ENUM_TESTCHAR_STATE_NEUTRAL );
@@ -638,11 +638,11 @@ bool CWilProt::Move()
 				ChangeState( ENUM_TESTCHAR_STATE_JUMP_NORMAL );
 				if( ( m_AirIncrease <= 1.0f ) &&
 					( m_AirIncrease > 0.0f ) ){
-					ChangeAnime( 8 , 0 ) ;
+//TBD					ChangeAnime( 8 , 0 ) ;
 				}
 				else if( ( m_AirIncrease <= 0.0f ) &&
 					( m_Anime.GetCurrentActionNo() != 9 )){
-					ChangeAnime( 9 , 0 ) ;
+//TBD					ChangeAnime( 9 , 0 ) ;
 				}
 			}
 			break;
@@ -1546,21 +1546,21 @@ void CWilProt::ChangeState( int state )
 			break;
 
 		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX:
-			ChangeAnime( DOT_WILL_ANIME_CROUCH_ATTACK_EX , 0 ) ;
+//TBD			ChangeAnime( DOT_WILL_ANIME_CROUCH_ATTACK_EX , 0 ) ;
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_CROUCH;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
 			break;
 
 		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX_START:
-			ChangeAnime( 67 , 0 ) ;
+//TBD			ChangeAnime( 67 , 0 ) ;
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_CROUCH;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
 			break;
 
 		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX_END:
-			ChangeAnime( 68 , 0 ) ;
+//TBD			ChangeAnime( 68 , 0 ) ;
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_CROUCH;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
@@ -1602,7 +1602,7 @@ void CWilProt::ChangeState( int state )
 			break;
 
 		case ENUM_TESTCHAR_STATE_JUMP_ATTACK_EX:
-			ChangeAnime( 55, 0 );
+//TBD			ChangeAnime( 55, 0 );
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_STATE_JUMP_ATTACK_EX ;
 			m_ActionSpec.SetSpec( false, 1, 1, 0 );
@@ -1659,7 +1659,7 @@ void CWilProt::ChangeState( int state )
 			break;
 
 		case ENUM_TESTCHAR_STATE_CROUCH_DAMAGE:
-			ChangeAnime( 19, 0 ) ;
+//TBD			ChangeAnime( 19, 0 ) ;
 			m_EnableDir				= FALSE;
 			m_KnockBackVector[0]	= 5 * -m_Dir;
 			sub = ENUM_TESTCHAR_SUB_STATE_CROUCH;
@@ -1677,14 +1677,14 @@ void CWilProt::ChangeState( int state )
 
 		case ENUM_TESTCHAR_STATE_BIG_DAMAGE:
 			StartAir( 7.0f * -m_Dir, 7.0f , 0, 0.3f );
-			ChangeAnime( 56, 0 ) ;
+//TBD			ChangeAnime( 56, 0 ) ;
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_JUMP;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
 			break;
 
 		case ENUM_TESTCHAR_STATE_DOWN:
-			ChangeAnime( 28, 0 ) ;
+//TBD			ChangeAnime( 28, 0 ) ;
 			m_EnableDir				= FALSE;
 //			m_KnockBackVector[0]	= 5 * -m_Dir;
 			sub = ENUM_TESTCHAR_SUB_STATE_DOWN;
@@ -1692,14 +1692,14 @@ void CWilProt::ChangeState( int state )
 			break;
 
 		case ENUM_TESTCHAR_STATE_GETUP:
-			ChangeAnime( 36, 0 ) ;
+//TBD			ChangeAnime( 36, 0 ) ;
 			m_EnableDir				= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_DOWN;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
 			break;
 
 		case ENUM_TESTCHAR_STATE_GUARD:
-			ChangeAnime( 30, 0 ) ;
+//TBD			ChangeAnime( 30, 0 ) ;
 			m_EnableDir				= FALSE;
 			m_KnockBackVector[0]	= 5 * -m_Dir;
 			sub = ENUM_TESTCHAR_SUB_STATE_STAND;
@@ -1707,7 +1707,7 @@ void CWilProt::ChangeState( int state )
 			break;
 
 		case ENUM_TESTCHAR_STATE_CROUCH_GUARD:
-			ChangeAnime( 32, 0 ) ;
+//TBD			ChangeAnime( 32, 0 ) ;
 			m_EnableDir				= FALSE;
 			m_KnockBackVector[0]	= 5 * -m_Dir;
 			sub = ENUM_TESTCHAR_SUB_STATE_CROUCH;
@@ -1717,7 +1717,7 @@ void CWilProt::ChangeState( int state )
 		case ENUM_TESTCHAR_STATE_JUMP_DAMAGE:
 			StartAir( 5.0f * -m_Dir, CHARACTER_COMMON_PARAMETER::AIR_DAMAGE_VECTOR
 						 , 0, (float)CHARACTER_COMMON_PARAMETER::AIR_DAMAGE_GRAVITY );
-			ChangeAnime( 33, 0 ) ;
+//TBD			ChangeAnime( 33, 0 ) ;
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_JUMP;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
@@ -1726,7 +1726,7 @@ void CWilProt::ChangeState( int state )
 		case ENUM_TESTCHAR_STATE_JUMP_GUARD:
 			StartAir( 5.0f * -m_Dir, CHARACTER_COMMON_PARAMETER::AIR_GUARD_VECTOR
 						 , 0, (float)CHARACTER_COMMON_PARAMETER::AIR_GUARD_GRAVITY );
-			ChangeAnime( 34, 0 ) ;
+//TBD			ChangeAnime( 34, 0 ) ;
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_JUMP;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
@@ -1739,42 +1739,42 @@ void CWilProt::ChangeState( int state )
 			break;
 
 		case ENUM_TESTCHAR_STATE_THROW:
-			ChangeAnime( 50, 0 );
+//TBD			ChangeAnime( 50, 0 );
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_STAND;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
 			break;
 
 		case ENUM_TESTCHAR_STATE_DAMAGE_THROW:
-			ChangeAnime( 18, 0 );
+//TBD			ChangeAnime( 18, 0 );
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_STAND;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
 			break;
 
 		case ENUM_TESTCHAR_STATE_MISS_THROW:
-			ChangeAnime( 53, 0 );
+//TBD			ChangeAnime( 53, 0 );
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_STAND;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
 			break;
 
 		case ENUM_TESTCHAR_STATE_SPECIAL_1:
-			ChangeAnime( 60, 0 );
+//TBD			ChangeAnime( 60, 0 );
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_JUMP;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
 			break;
 
 		case ENUM_TESTCHAR_STATE_SPECIAL_1_END:
-			ChangeAnime( 61, 0 );
+//TBD			ChangeAnime( 61, 0 );
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_STAND;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
 			break;
 
 		case ENUM_TESTCHAR_STATE_SPECIAL_2:
-			ChangeAnime( 1, 0 );
+//TBD			ChangeAnime( 1, 0 );
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_STAND;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
@@ -1782,7 +1782,7 @@ void CWilProt::ChangeState( int state )
 
 		case ENUM_TESTCHAR_STATE_SPECIAL_3:
 			StartAir( 1.0f * -m_Dir * -1 , 20.0f , 0, 0.5f );
-			ChangeAnime( 65, 0 );
+//TBD			ChangeAnime( 65, 0 );
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_STAND;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
@@ -1805,7 +1805,7 @@ void CWilProt::ChangeState( int state )
 
 		case ENUM_TESTCHAR_STATE_JUMP_RECOVER:
 			StartAir( 2.0f * -m_Dir, 7.0f , 0, 0.3f );
-			ChangeAnime( 42, 0 ) ;
+//TBD			ChangeAnime( 42, 0 ) ;
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_JUMP;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
