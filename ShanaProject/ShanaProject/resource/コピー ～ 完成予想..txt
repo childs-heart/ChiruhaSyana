@@ -1,0 +1,52 @@
+:STATUS1
+[TRIGGER]
+width < 200
+[COST]
+100
+[ACTION]
+Back
+[GO]
+STATUS2
+
+[TRIGGER]
+width < 200
+[COST]
+100
+[ACTION]
+Back
+
+:STATUS2
+[TRIGGER]
+width < 200
+[COST]
+100
+[ACTION]
+Back
+[GO]
+STATUS2
+
+[TRIGGER]
+width > 410
+[COST]
+50
+[ACTION]
+DushForward
+
+:EVERY
+[TRIGGER]
+damage
+[COST]
+100
+[ACTION]
+DushForward
+
+[TRIGGER]
+width > 410
+[COST]
+50
+[ACTION]
+DushForward
+
+{COMBO_01}
+WAIT,RAND(10)+10
+PUNCH

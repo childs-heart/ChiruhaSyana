@@ -1,0 +1,25 @@
+{TRIGGER}
+width > 210
+{COST}
+10
+{ACTION}
+Forward
+
+{TRIGGER}
+width < 190
+{COST}
+10
+{ACTION}
+Back
+
+{TRIGGER}
+width > 0
+{COST}
+5
+{ACTION}
+Stop,10,0
+{STATE}
+1
+
+:1
+

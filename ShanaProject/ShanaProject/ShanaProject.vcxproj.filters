@@ -30,6 +30,30 @@
     <Text Include="Text1.txt">
       <Filter>リソース ファイル</Filter>
     </Text>
+    <Text Include="resource\_test.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="resource\dxva_sig.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="resource\test.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="resource\test1.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="resource\コピー ～ test.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="resource\コピー ～ 完成予想..txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="resource\完成予想２.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="resource\座標値.txt">
+      <Filter>resource</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BattleMenu.cpp">
@@ -1635,6 +1659,1392 @@
     <Image Include="resource\途中データ1_back.PNG">
       <Filter>resource</Filter>
     </Image>
+    <Image Include="resource\back_black.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\back_white.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\black.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\CharaSel_Shana.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\CharaSel_Will.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Chilha_Logo_a.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Chilha_Logo_b.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_001_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_001_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_001_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_001_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_001_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_001_06.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_001_07.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_002_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_002_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_002_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_002_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_003_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_003_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_003_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_003_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_003_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_003_06.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_003_07.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_004_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_004_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_004_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_004_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_004_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_004_06.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_004_07.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_004_08.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_004_09.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_004_10.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_004_11.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_005_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_005_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_005_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_005_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_005_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_005_06.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_005_07.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_005_08.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_017_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_017_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_017_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_017_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_022_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_022_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_022_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_022_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_030_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_030_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_030_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_030_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_032_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_032_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_035_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_035_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_035_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_035_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_035_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_035_06.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_035_07.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_037_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_037_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_037_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_037_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_037_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_038_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_038_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_038_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_038_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_039_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_039_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_039_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_040_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_040_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_040_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_045_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_045_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_047_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_047_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_048_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_048_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_050_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_050_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_201_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_202_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_202_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_202_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_203_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_203_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_204_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_204_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_204_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_205_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_205_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_208_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_208_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_208_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_208_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_208_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_210_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_210_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_211_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_211_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_308_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_308_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_308_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_308_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_308_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_309_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_309_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_309_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_407_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_407_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_407_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_407_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_407_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_407_06.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_413_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_413_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_414_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_414_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_414_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_414_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_414_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_414_06.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_414_07.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_414_08.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_414_09.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_414_10.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_414_11.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_414_12.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_418_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_418_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_418_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_418_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_418_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_418_06.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_418_07.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_418_07_.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_418_08.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_418_09.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_419_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_419_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_420_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_420_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_420_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_420_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_420_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_421_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_421_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_421_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_421_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_421_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_421_06.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_421_07.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_421_08.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_432_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_432_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_432_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_432_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_432_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_432_06.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_432_07.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_432_08.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_432_09.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_432_10.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_432_11.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_433_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_433_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_434_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_434_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_434_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_434_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_601_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_601_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_601_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_601_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_601_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_602_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_602_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_602_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_801_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_801_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_801_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_801_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_801_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_802_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_802_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_802_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_802_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_802_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_802_06.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_802_07.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_802_08.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_802_09.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_803_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_803_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_803_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_803_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_803_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_803_06.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_803_07.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_803_08.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_06.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_07.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_08.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_09.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_10.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_11.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_12.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_13.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_14.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_903_15.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_999_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_999_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_999_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya_999_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Sya201_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_104_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_104_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_104_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_104_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_105_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_105_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_105_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_105_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_105_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_105_006.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_105_007.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_105_008.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_201_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_202_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_202_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_203_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_203_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_204_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_204_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_204_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_204_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_205_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_205_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_206_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_206_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_207_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_207_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_208_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_208_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_208_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_208_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_208_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_211_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_211_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_301_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_301_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_301_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_301_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_301_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_301_006.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_301_007.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_301_008.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_302_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_302_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_302_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_302_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_302_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_302_006.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_302_007.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_302_008.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_303_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_303_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_303_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_303_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_303_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_303_006.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_304_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_304_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_304_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_304_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_306_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_306_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_306_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_306_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_306_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_306_006.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_306_007.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_306_008.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_307_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_307_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_307_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_307_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_307_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_307_006.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_308_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_308_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_308_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_309_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_309_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_309_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_006.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_007.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_008.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_009.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_010.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_011.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_012.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_013.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_014.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_401_015.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_405_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_405_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_405_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_405_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_405_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_405_006.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_406_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_406_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_407_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_407_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_407_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_407_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_407_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_413_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_413_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_413_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_413_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_413_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_413_006.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_413_007.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_418_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_418_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_418_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_418_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_418_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_418_006.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_418_007.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_418_008.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_418_009.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_418_010.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_418_011.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_418_012.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_419_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_419_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_419_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_420_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_420_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_420_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_420_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_420_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_431_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_431_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_433_1.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_433_2.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_434_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_434_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_434_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_434_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_434_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_434_006.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_434_007.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_434_008.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_501_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_501_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_502_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_502_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_503_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_503_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_006.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_007.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_008.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_009.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_010.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_011.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_012.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_013.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_014.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_015.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_016.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_801_017.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_802_001.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_802_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_802_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_802_004.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_802_005.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_802_006.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_802_007.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_802_008.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_802_009.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Dot_Wil_802_010.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\gradetion.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Guard10100q.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\HpGauge.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Jump_landing0009q.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Jump_landing0010q.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Jump_landing0011q.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Jump_landing0012q.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Jump_landing0013q.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Jump_landing0014q.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Jump_landing0015q.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Jump_landing0016q.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Jump_landing0017q.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Jump_landing0018q.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Jump_landing0019q.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\Jump_landing0020q.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\obi.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\red.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\ringAa000.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\ringAb000.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\ringAc000.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SelectChar_Sya001_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_001_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_001_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_001_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_001_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_001_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_002_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_002_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_002_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_002_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_002_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_003_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_003_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_003_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_003_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_003_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_004_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_004_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_004_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_004_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_004_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_005_01.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_005_02.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_005_03.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_005_04.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\SystemGra_005_05.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\zan.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\コピー ～ Dot_Wil_306_002.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\コピー ～ Dot_Wil_306_003.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\自在式.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\自在式_TIME_Small_Nontime.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\体力ゲージ案.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\体力ゲージ案のコピー.bmp">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="resource\背景祭ラフ.bmp">
+      <Filter>resource</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="resource\j.act">
@@ -1664,5 +3074,112 @@
     <None Include="resource\title_red.png.psd">
       <Filter>resource</Filter>
     </None>
+    <None Include="resource\testX2.x">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\asm_l.x">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\asm_r.x">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\gear_l.x">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\gear_m.x">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\gear_s.x">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\moetan.x">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\testX1.x">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="resource\ConfigTool.ini">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resource\b_dash3.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\bosu15.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\bosu35.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\close07.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\dash01.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\don14c.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\gun14_b.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\gun20_b.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\gun23x.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\j_dash06.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\mute.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\shana01_03.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\shana02_01.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\step07b.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\swing_fire.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\swing06_h.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\swing06_r.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\swing15.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\swing20.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\swing24_a.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\swing24_b.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\swing24_c.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\swing27.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\swing30_c.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\swing31_a.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="resource\swing40_a.wav">
+      <Filter>resource</Filter>
+    </Media>
   </ItemGroup>
 </Project>
