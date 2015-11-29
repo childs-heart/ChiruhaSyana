@@ -1,5 +1,4 @@
-//#include "StdAfx.h"
-//#include "Stdafx.h"
+#include "StdAfx.h"
 #include ".\filesave.h"
 #include "common.h"
 #include "tchar.h"

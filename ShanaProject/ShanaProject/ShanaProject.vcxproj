@@ -358,6 +358,7 @@
     <ClInclude Include="ShanaMain.h" />
     <ClInclude Include="ShanaProt.h" />
     <ClInclude Include="SpGauge.h" />
+    <ClInclude Include="stdafx.h" />
     <ClInclude Include="SysLogo2.h" />
     <ClInclude Include="TestX.h" />
     <ClInclude Include="text_analy\CAITableFactory.h" />

@@ -799,6 +799,9 @@
     <ClInclude Include="text_analy\CAITableFactoryShana.h">
       <Filter>ai</Filter>
     </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="resource\A2ポスター用完成品.jpg">
