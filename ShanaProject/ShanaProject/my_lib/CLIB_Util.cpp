@@ -1607,86 +1607,87 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 
 		// special 1
 		temp = DOT_WILL_ANIME_SPECIAL1;
-		anime->CreateAction( temp, 3 );
+		anime->CreateAction( temp, 17 );
 		anime->GetActionData( temp )->SetMotionData( 0, 151, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData(0, 152, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData(0, 153, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData(0, 154, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData(0, 155, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData( 0, 156, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 157, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 158, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 159, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData(0, 160, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData(0, 161, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData( 0, 162, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 163, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 164, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 165, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 166, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 167, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData( 1, 152, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData( 2, 153, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData( 3, 154, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData( 4, 155, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData( 5, 156, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData( 6, 157, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData( 7, 158, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData( 8, 159, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData( 9, 160, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(10, 161, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(11, 162, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData(12, 163, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData(13, 164, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData(14, 165, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData(15, 166, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData(16, 167, 3, 84, 110 );
 
 		// ATTACK MID
 		temp = DOT_WILL_ANIME_ATTACK_MID;
-		anime->CreateAction( temp, 3 );
+		anime->CreateAction( temp, 5 );
 		anime->GetActionData( temp )->SetMotionData(0, 180, 3, 87, 113);
-		anime->GetActionData( temp )->SetMotionData(0, 181, 3, 87, 113);
-		anime->GetActionData( temp )->SetMotionData(0, 182, 3, 87, 113);
-		anime->GetActionData( temp )->SetMotionData(0, 183, 3, 87, 113);
-		anime->GetActionData( temp )->SetMotionData(0, 184, 3, 87, 113);
+		anime->GetActionData( temp )->SetMotionData(1, 181, 3, 87, 113);
+		anime->GetActionData( temp )->SetMotionData(2, 182, 3, 87, 113);
+		anime->GetActionData( temp )->SetMotionData(3, 183, 3, 87, 113);
+		anime->GetActionData( temp )->SetMotionData(4, 184, 3, 87, 113);
 
 		// JUMP ATTACK HIGH
 		temp = DOT_WILL_ANIME_JUMP_ATTACK_HIGH;
-		anime->CreateAction( temp, 3 );
+		anime->CreateAction( temp, 12 );
 		anime->GetActionData( temp )->SetMotionData(0, 185, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData(0, 186, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData(0, 187, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData(0, 188, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData(0, 189, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData(0, 190, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData(0, 192, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData(0, 193, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData(0, 194, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData(0, 195, 3, 84, 110);
-		anime->GetActionData( temp )->SetMotionData(0, 196, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(1, 186, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(2, 187, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(3, 188, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(4, 189, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(5, 190, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(6, 191, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(7, 192, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(8, 193, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(9, 194, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(10, 195, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(11, 196, 3, 84, 110);
 
 		// THROW MISS
 		temp = DOT_WILL_ANIME_THROW_MISS;
-		anime->CreateAction( temp, 3 );
+		anime->CreateAction( temp, 2 );
 		anime->GetActionData( temp )->SetMotionData(0, 198, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData(0, 199, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(1, 199, 3, 84, 110);
 
 		// GUARD
 		temp = DOT_WILL_ANIME_GUARD;
-		anime->CreateAction( temp, 3 );
+		anime->CreateAction( temp, 2 );
 		anime->GetActionData( temp )->SetMotionData(0, 200, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData(0, 201, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(1, 201, 3, 84, 110);
 
 		// AIR GUARD
 		temp = DOT_WILL_ANIME_AIR_GUARD;
-		anime->CreateAction( temp, 3 );
+		anime->CreateAction( temp, 2 );
 		anime->GetActionData( temp )->SetMotionData(0, 203, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData(0, 204, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(1, 204, 3, 84, 110);
 
 		// CROUCH GUARD
 		temp = DOT_WILL_ANIME_CROUCH_GUARD;
-		anime->CreateAction( temp, 3 );
+		anime->CreateAction( temp, 2 );
 		anime->GetActionData( temp )->SetMotionData(0, 206, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData(0, 207, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(1, 207, 3, 84, 110);
 
 		// special 2
 		temp = DOT_WILL_ANIME_SPECIAL2;
-		anime->CreateAction( temp, 3 );
+		anime->CreateAction( temp, 10 );
 		anime->GetActionData( temp )->SetMotionData( 0, 210, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 211, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 212, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 213, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 214, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 215, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 216, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 217, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 218, 3, 84, 110 );
-		anime->GetActionData( temp )->SetMotionData( 0, 219, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData( 1, 211, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData( 2, 212, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData( 3, 213, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData( 4, 214, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData( 5, 215, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData( 6, 216, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData( 7, 217, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData( 8, 218, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData( 9, 219, 3, 84, 110 );
 
 #if 0
 		anime->GetActionData( 4 )->SetWoundDataAbs( 0, 0, 18, 25, 65, 107 );
