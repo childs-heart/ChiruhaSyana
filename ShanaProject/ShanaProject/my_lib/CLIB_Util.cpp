@@ -320,24 +320,23 @@ void CTextureGroupManager::SetupTextureGroup( CTextureGroup* tex, int no, int pa
 		tex->LoadTexture( 149, "Dot_Wil_419_003.bmp", 0 );
 
 		// special 1
-		tex->LoadTexture( 151, "Dot_Wil_801_001.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 152, "Dot_Wil_801_002.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 153, "Dot_Wil_801_003.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 154, "Dot_Wil_801_004.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 155, "Dot_Wil_801_005.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 156, "Dot_Wil_801_006.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 157, "Dot_Wil_801_007.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 158, "Dot_Wil_801_008.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 159, "Dot_Wil_801_009.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 160, "Dot_Wil_801_010.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 161, "Dot_Wil_801_011.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 162, "Dot_Wil_801_012.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 163, "Dot_Wil_801_013.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 164, "Dot_Wil_801_014.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 165, "Dot_Wil_801_015.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 166, "Dot_Wil_801_016.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 167, "Dot_Wil_801_017.bmp", 0, stPaletteTemp );
-		break;
+		tex->LoadTexture( 151, "Dot_Wil_801_001.bmp", 0 );
+		tex->LoadTexture( 152, "Dot_Wil_801_002.bmp", 0 );
+		tex->LoadTexture( 153, "Dot_Wil_801_003.bmp", 0 );
+		tex->LoadTexture( 154, "Dot_Wil_801_004.bmp", 0 );
+		tex->LoadTexture( 155, "Dot_Wil_801_005.bmp", 0 );
+		tex->LoadTexture( 156, "Dot_Wil_801_006.bmp", 0 );
+		tex->LoadTexture( 157, "Dot_Wil_801_007.bmp", 0 );
+		tex->LoadTexture( 158, "Dot_Wil_801_008.bmp", 0 );
+		tex->LoadTexture( 159, "Dot_Wil_801_009.bmp", 0 );
+		tex->LoadTexture( 160, "Dot_Wil_801_010.bmp", 0 );
+		tex->LoadTexture( 161, "Dot_Wil_801_011.bmp", 0 );
+		tex->LoadTexture( 162, "Dot_Wil_801_012.bmp", 0 );
+		tex->LoadTexture( 163, "Dot_Wil_801_013.bmp", 0 );
+		tex->LoadTexture( 164, "Dot_Wil_801_014.bmp", 0 );
+		tex->LoadTexture( 165, "Dot_Wil_801_015.bmp", 0 );
+		tex->LoadTexture( 166, "Dot_Wil_801_016.bmp", 0 );
+		tex->LoadTexture( 167, "Dot_Wil_801_017.bmp", 0 );
 
 		// damage down
 //		tex->LoadTexture(170, "Dot_Wil_207_001.bmp", 0, stPaletteTemp);
@@ -346,62 +345,55 @@ void CTextureGroupManager::SetupTextureGroup( CTextureGroup* tex, int no, int pa
 		// attackl low
 //		tex->LoadTexture(175, "Dot_Wil_406_001.bmp", 0, stPaletteTemp);
 //		tex->LoadTexture(176, "Dot_Wil_406_002.bmp", 0, stPaletteTemp);
-		break;
 
 		// attackl mid
-		tex->LoadTexture(180, "Dot_Wil_407_001.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(181, "Dot_Wil_407_002.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(182, "Dot_Wil_407_003.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(183, "Dot_Wil_407_004.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(184, "Dot_Wil_407_005.bmp", 0, stPaletteTemp);
-		break;
+		tex->LoadTexture(180, "Dot_Wil_407_001.bmp", 0 );
+		tex->LoadTexture(181, "Dot_Wil_407_002.bmp", 0 );
+		tex->LoadTexture(182, "Dot_Wil_407_003.bmp", 0 );
+		tex->LoadTexture(183, "Dot_Wil_407_004.bmp", 0 );
+		tex->LoadTexture(184, "Dot_Wil_407_005.bmp", 0 );
 
 		// attackl jump high
-		tex->LoadTexture(185, "Dot_Wil_418_001.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(186, "Dot_Wil_418_002.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(187, "Dot_Wil_418_003.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(188, "Dot_Wil_418_004.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(189, "Dot_Wil_418_005.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(190, "Dot_Wil_418_006.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(191, "Dot_Wil_418_007.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(192, "Dot_Wil_418_008.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(193, "Dot_Wil_418_009.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(194, "Dot_Wil_418_010.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(195, "Dot_Wil_418_011.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(196, "Dot_Wil_418_012.bmp", 0, stPaletteTemp);
-		break;
+		tex->LoadTexture(185, "Dot_Wil_418_001.bmp", 0 );
+		tex->LoadTexture(186, "Dot_Wil_418_002.bmp", 0 );
+		tex->LoadTexture(187, "Dot_Wil_418_003.bmp", 0 );
+		tex->LoadTexture(188, "Dot_Wil_418_004.bmp", 0 );
+		tex->LoadTexture(189, "Dot_Wil_418_005.bmp", 0 );
+		tex->LoadTexture(190, "Dot_Wil_418_006.bmp", 0 );
+		tex->LoadTexture(191, "Dot_Wil_418_007.bmp", 0 );
+		tex->LoadTexture(192, "Dot_Wil_418_008.bmp", 0 );
+		tex->LoadTexture(193, "Dot_Wil_418_009.bmp", 0 );
+		tex->LoadTexture(194, "Dot_Wil_418_010.bmp", 0 );
+		tex->LoadTexture(195, "Dot_Wil_418_011.bmp", 0 );
+		tex->LoadTexture(196, "Dot_Wil_418_012.bmp", 0 );
 
 		// throw miss
-		tex->LoadTexture(198, "Dot_Wil_431_001.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(199, "Dot_Wil_431_002.bmp", 0, stPaletteTemp);
-		break;
+		tex->LoadTexture(198, "Dot_Wil_431_001.bmp", 0 );
+		tex->LoadTexture(199, "Dot_Wil_431_002.bmp", 0 );
 
 		// guard
-		tex->LoadTexture(200, "Dot_Wil_501_001.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(201, "Dot_Wil_501_002.bmp", 0, stPaletteTemp);
-		break;
+		tex->LoadTexture(200, "Dot_Wil_501_001.bmp", 0 );
+		tex->LoadTexture(201, "Dot_Wil_501_002.bmp", 0 );
 
 		// air guard
-		tex->LoadTexture(203, "Dot_Wil_502_001.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(204, "Dot_Wil_502_002.bmp", 0, stPaletteTemp);
-		break;
+		tex->LoadTexture(203, "Dot_Wil_502_001.bmp", 0 );
+		tex->LoadTexture(204, "Dot_Wil_502_002.bmp", 0 );
 
 		// crounch guard
-		tex->LoadTexture(206, "Dot_Wil_503_001.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(207, "Dot_Wil_503_002.bmp", 0, stPaletteTemp);
-		break;
+		tex->LoadTexture(206, "Dot_Wil_503_001.bmp", 0 );
+		tex->LoadTexture(207, "Dot_Wil_503_002.bmp", 0 );
 
 		// special 2
-		tex->LoadTexture(210, "Dot_Wil_802_001.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(211, "Dot_Wil_802_002.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(212, "Dot_Wil_802_003.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(213, "Dot_Wil_802_004.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(214, "Dot_Wil_802_005.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(215, "Dot_Wil_802_006.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(216, "Dot_Wil_802_007.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(217, "Dot_Wil_802_008.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(218, "Dot_Wil_802_009.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(219, "Dot_Wil_802_010.bmp", 0, stPaletteTemp);
+		tex->LoadTexture(210, "Dot_Wil_802_001.bmp", 0 );
+		tex->LoadTexture(211, "Dot_Wil_802_002.bmp", 0 );
+		tex->LoadTexture(212, "Dot_Wil_802_003.bmp", 0 );
+		tex->LoadTexture(213, "Dot_Wil_802_004.bmp", 0 );
+		tex->LoadTexture(214, "Dot_Wil_802_005.bmp", 0 );
+		tex->LoadTexture(215, "Dot_Wil_802_006.bmp", 0 );
+		tex->LoadTexture(216, "Dot_Wil_802_007.bmp", 0 );
+		tex->LoadTexture(217, "Dot_Wil_802_008.bmp", 0 );
+		tex->LoadTexture(218, "Dot_Wil_802_009.bmp", 0 );
+		tex->LoadTexture(219, "Dot_Wil_802_010.bmp", 0 );
 		break;
 
 		case TEXTURE_NO_SHANA:

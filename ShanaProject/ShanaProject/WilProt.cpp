@@ -1699,7 +1699,7 @@ void CWilProt::ChangeState( int state )
 			break;
 
 		case ENUM_TESTCHAR_STATE_GUARD:
-//TBD			ChangeAnime( 30, 0 ) ;
+			ChangeAnime( DOT_WILL_ANIME_GUARD, 0 ) ;
 			m_EnableDir				= FALSE;
 			m_KnockBackVector[0]	= 5 * -m_Dir;
 			sub = ENUM_TESTCHAR_SUB_STATE_STAND;
@@ -1760,7 +1760,7 @@ void CWilProt::ChangeState( int state )
 			break;
 
 		case ENUM_TESTCHAR_STATE_SPECIAL_1:
-//TBD			ChangeAnime( 60, 0 );
+			ChangeAnime(DOT_WILL_ANIME_SPECIAL1, 0 );
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_JUMP;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
