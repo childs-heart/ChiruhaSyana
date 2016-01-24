@@ -1539,7 +1539,7 @@ void CWilProt::ChangeState( int state )
 			break;
 
 		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_HIGH:
-			ChangeAnime( DOT_WILL_ANIME_CROUCH_ATTACK_HIGH , 0 ) ;
+//TBD			ChangeAnime( DOT_WILL_ANIME_CROUCH_ATTACK_HIGH , 0 ) ;
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_CROUCH;
 			m_ActionSpec.SetSpec( false, 30, 30, 0 );
