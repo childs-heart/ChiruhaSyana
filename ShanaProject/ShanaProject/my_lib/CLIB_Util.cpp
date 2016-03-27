@@ -1388,6 +1388,20 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->GetActionData( temp )->SetMotionData( 0, 53, 3, 87, 110 );
 		anime->GetActionData( temp )->SetMotionData( 1, 54, 3, 87, 110 );
 		anime->GetActionData( temp )->SetMotionData( 2, 53, 3, 87, 110 );
+		// 食らい判定
+		anime->GetActionData(temp)->SetWoundData(0, 0, -13, -100, 17, 0);
+		anime->GetActionData(temp)->SetWoundData(0, 1, -25, -60, -13, -50);
+		anime->GetActionData(temp)->SetWoundData(1, 0, -13, -100, 17, 0);
+		anime->GetActionData(temp)->SetWoundData(1, 1, -45, -80, -35, -65);
+		anime->GetActionData(temp)->SetWoundData(1, 2, -35, -75, -13, -60);
+		anime->GetActionData(temp)->SetWoundData(1, 3, -23, -10, 27, 0);
+		anime->GetActionData(temp)->SetWoundData(2, 0, -13, -100, 17, 0);
+		anime->GetActionData(temp)->SetWoundData(2, 1, -25, -60, -13, -50);
+		// 攻撃判定
+		anime->GetActionData(temp)->SetAttackData(1, 0, -45, -80, -35, -65, ENUM_ATTACK_PROPERTY_LOW);
+		// ダメージなど
+		anime->GetActionData(temp)->SetAttackSpec(1, 100, 0, ENUM_ATTACK_TYPE_RESET);
+
 
 		// DUSH back
 		temp = DOT_WILL_ANIME_DUSH_BACK;
