@@ -1616,7 +1616,7 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->GetActionData(temp)->SetAttackData(3, 3, -90, -100, -60, -60, ENUM_ATTACK_PROPERTY_HIGH);
 		// ƒ_ƒ[ƒW‚È‚Ç
 		anime->GetActionData(temp)->SetAttackSpec(1, 300, 0, 0);
-		anime->GetActionData(temp)->SetAttackSpec(2, 300, 0, 0);
+		anime->GetActionData(temp)->SetAttackSpec(2, 400, 0, 0);
 		anime->GetActionData(temp)->SetAttackSpec(3, 450, 0, 0);
 
 
