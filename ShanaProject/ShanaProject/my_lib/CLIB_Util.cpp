@@ -1508,6 +1508,15 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->CreateAction( temp, 2 );
 		anime->GetActionData( temp )->SetMotionData( 0, 90, 3, 83, 111 );
 		anime->GetActionData( temp )->SetMotionData( 1, 91, 3, 83, 111 );
+		
+		anime->GetActionData(temp)->SetWoundData(0, 0, -30, -100, 30, 0);
+		anime->GetActionData(temp)->SetWoundData(1, 0, -30, -100, 30, 0);
+
+		anime->GetActionData(temp)->SetAttackData(0, 0, -40, -40, -30, -30, ENUM_ATTACK_PROPERTY_LOW);
+		anime->GetActionData(temp)->SetAttackData(1, 0, -40, -40, -30, -30, ENUM_ATTACK_PROPERTY_LOW);
+
+		anime->GetActionData(temp)->SetAttackSpec(0, 100, 0, ENUM_ATTACK_TYPE_RESET);
+		anime->GetActionData(temp)->SetAttackSpec(1, 100, 0, ENUM_ATTACK_TYPE_RESET);
 
 		// crouch_damage
 		temp = DOT_WILL_ANIME_CROUCH_DAMAGE;
@@ -1606,7 +1615,7 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 
 
 
-		// crouch attack low
+		// crouch attack mid
 		temp = DOT_WILL_ANIME_CROUCH_ATTACK_MID;
 		anime->CreateAction( temp, 7 );
 		anime->GetActionData( temp )->SetMotionData( 0, 140, 3, 84, 110 );
@@ -1616,6 +1625,23 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->GetActionData( temp )->SetMotionData( 4, 144, 3, 84, 110 );
 		anime->GetActionData( temp )->SetMotionData( 5, 145, 3, 84, 110 );
 		anime->GetActionData( temp )->SetMotionData( 6, 146, 3, 84, 110 );
+		// 食らい判定
+		anime->GetActionData(temp)->SetWoundData(0, 0, -25, -70, 20, 0);
+		anime->GetActionData(temp)->SetWoundData(1, 0, -25, -70, 20, 0);
+		anime->GetActionData(temp)->SetWoundData(2, 0, -35, -70, 10, 0);
+		anime->GetActionData(temp)->SetWoundData(3, 0, -45, -70, 0, 0);
+		anime->GetActionData(temp)->SetWoundData(3, 1, -75, -40, -5, -30);
+		anime->GetActionData(temp)->SetWoundData(4, 0, -45, -70, 0, 0);
+		anime->GetActionData(temp)->SetWoundData(4, 0, -75, -43, -5, -33);
+		anime->GetActionData(temp)->SetWoundData(5, 0, -35, -70, 10, 0);
+		anime->GetActionData(temp)->SetWoundData(5, 1, -75, -43, -5, -33);
+		anime->GetActionData(temp)->SetWoundData(6, 0, -25, -70, 20, 0);
+		// 攻撃判定
+		anime->GetActionData(temp)->SetAttackData(3, 0, -75, -40, -10, -30, ENUM_ATTACK_PROPERTY_MIDDLE);
+		anime->GetActionData(temp)->SetAttackData(4, 0, -75, -43, -10, -33, ENUM_ATTACK_PROPERTY_MIDDLE);
+		// ダメージなど
+		anime->GetActionData(temp)->SetAttackSpec(3, 100, 0, 0);
+		anime->GetActionData(temp)->SetAttackSpec(4, 100, 0, 0);
 
 		// jump attack low
 		temp = DOT_WILL_ANIME_JUMP_ATTACK_LOW;
