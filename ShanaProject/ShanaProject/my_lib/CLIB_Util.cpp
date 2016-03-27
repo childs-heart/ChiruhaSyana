@@ -1591,27 +1591,33 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
         temp = DOT_WILL_ANIME_JUMP_ATTACK_MID;
 		anime->CreateAction( temp, 5 );
 		anime->GetActionData( temp )->SetMotionData( 0, 130, 4, 118, 136 );
-		anime->GetActionData( temp )->SetMotionData( 1, 131, 4, 121, 113 );
-		anime->GetActionData( temp )->SetMotionData( 2, 132, 3, 121, 113 );
-		anime->GetActionData( temp )->SetMotionData( 3, 133, 10, 121, 113 );
-		anime->GetActionData( temp )->SetMotionData( 4, 134, 3, 121, 113 );
+		anime->GetActionData( temp )->SetMotionData( 1, 131, 2, 121, 113 );
+		anime->GetActionData( temp )->SetMotionData( 2, 132, 4, 121, 113 );
+		anime->GetActionData( temp )->SetMotionData( 3, 133, 4, 121, 113 );
+		anime->GetActionData( temp )->SetMotionData( 4, 134, 4, 121, 113 );
 		// 食らい判定
-		anime->GetActionData(temp)->SetWoundData(0, 0, 0, -150, 0, 0);
-		anime->GetActionData(temp)->SetWoundData(1, 0, 0, -150, 0, 0);
-		anime->GetActionData(temp)->SetWoundData(2, 0, 0, -150, 0, 0);
-		anime->GetActionData(temp)->SetWoundData(3, 0, 0, -150, 0, 0);
-		anime->GetActionData(temp)->SetWoundData(4, 0, 0, -150, 0, 0);
+		anime->GetActionData(temp)->SetWoundData(0, 0, -30, -80, 30, 30);
+		anime->GetActionData(temp)->SetWoundData(1, 0, -30, -80, 30, 30);
+		anime->GetActionData(temp)->SetWoundData(2, 0, -30, -80, 30, 30);
+		anime->GetActionData(temp)->SetWoundData(3, 0, -30, -80, 30, 30);
+		anime->GetActionData(temp)->SetWoundData(4, 0, -30, -80, 30, 30);
 		// 攻撃判定
-		anime->GetActionData(temp)->SetAttackData(1, 0, -30, -50, 0, 40, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(2, 0, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(2, 1, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(2, 2, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(2, 3, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(3, 0, -120, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
+		anime->GetActionData(temp)->SetAttackData(1, 0, -10, -60, 0, -30, ENUM_ATTACK_PROPERTY_HIGH);
+		anime->GetActionData(temp)->SetAttackData(1, 1, -40, -70, -20, -50, ENUM_ATTACK_PROPERTY_HIGH);
+
+		anime->GetActionData(temp)->SetAttackData(2, 0, -20, -60, 0, -30, ENUM_ATTACK_PROPERTY_HIGH);
+		anime->GetActionData(temp)->SetAttackData(2, 1, -40, -70, -20, -40, ENUM_ATTACK_PROPERTY_HIGH);
+		anime->GetActionData(temp)->SetAttackData(2, 2, -60, -80, -40, -50, ENUM_ATTACK_PROPERTY_HIGH);
+		anime->GetActionData(temp)->SetAttackData(2, 3, -90, -100, -60, -60, ENUM_ATTACK_PROPERTY_HIGH);
+
+		anime->GetActionData(temp)->SetAttackData(3, 0, -20, -60, 0, -30, ENUM_ATTACK_PROPERTY_HIGH);
+		anime->GetActionData(temp)->SetAttackData(3, 1, -40, -70, -20, -40, ENUM_ATTACK_PROPERTY_HIGH);
+		anime->GetActionData(temp)->SetAttackData(3, 2, -60, -80, -40, -50, ENUM_ATTACK_PROPERTY_HIGH);
+		anime->GetActionData(temp)->SetAttackData(3, 3, -90, -100, -60, -60, ENUM_ATTACK_PROPERTY_HIGH);
 		// ダメージなど
 		anime->GetActionData(temp)->SetAttackSpec(1, 300, 0, 0);
 		anime->GetActionData(temp)->SetAttackSpec(2, 300, 0, 0);
-		anime->GetActionData(temp)->SetAttackSpec(3, 3000, 0, 0);
+		anime->GetActionData(temp)->SetAttackSpec(3, 450, 0, 0);
 
 
 
