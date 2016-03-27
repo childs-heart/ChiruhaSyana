@@ -1593,13 +1593,16 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->GetActionData(temp)->SetWoundData(3, 0, 0, -150, 0, 0);
 		anime->GetActionData(temp)->SetWoundData(4, 0, 0, -150, 0, 0);
 		// 攻撃判定
-		anime->GetActionData(temp)->SetAttackData(1, 0, -78, -50, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
+		anime->GetActionData(temp)->SetAttackData(1, 0, -30, -50, 0, 40, ENUM_ATTACK_PROPERTY_HIGH);
 		anime->GetActionData(temp)->SetAttackData(2, 0, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
+		anime->GetActionData(temp)->SetAttackData(2, 1, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
+		anime->GetActionData(temp)->SetAttackData(2, 2, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
+		anime->GetActionData(temp)->SetAttackData(2, 3, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
 		anime->GetActionData(temp)->SetAttackData(3, 0, -120, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
 		// ダメージなど
-		anime->GetActionData(temp)->SetAttackSpec(1, 300, 0, ENUM_ATTACK_TYPE_RESET);
-		anime->GetActionData(temp)->SetAttackSpec(2, 300, 0, ENUM_ATTACK_TYPE_RESET);
-		anime->GetActionData(temp)->SetAttackSpec(3, 300, 0, ENUM_ATTACK_TYPE_RESET);
+		anime->GetActionData(temp)->SetAttackSpec(1, 300, 0, 0);
+		anime->GetActionData(temp)->SetAttackSpec(2, 300, 0, 0);
+		anime->GetActionData(temp)->SetAttackSpec(3, 3000, 0, 0);
 
 
 
@@ -1629,9 +1632,9 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->GetActionData(temp)->SetAttackData(1, 0, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_LOW);
 		anime->GetActionData(temp)->SetAttackData(2, 0, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_LOW);
 		// ダメージなど
-		anime->GetActionData(temp)->SetAttackSpec(0, 100, 0, ENUM_ATTACK_TYPE_RESET);
-		anime->GetActionData(temp)->SetAttackSpec(1, 100, 0, ENUM_ATTACK_TYPE_RESET);
-		anime->GetActionData(temp)->SetAttackSpec(2, 100, 0, ENUM_ATTACK_TYPE_RESET);
+		anime->GetActionData(temp)->SetAttackSpec(0, 100, 0, 0);
+		anime->GetActionData(temp)->SetAttackSpec(1, 100, 0, 0);
+		anime->GetActionData(temp)->SetAttackSpec(2, 100, 0, 0);
 
 
 		// special 1
@@ -1667,18 +1670,6 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		// JUMP ATTACK HIGH
 		temp = DOT_WILL_ANIME_JUMP_ATTACK_HIGH;
 		anime->CreateAction( temp, 12 );
-		//anime->GetActionData( temp )->SetMotionData(0, 185, 3, 84, 110 );
-		//anime->GetActionData( temp )->SetMotionData(1, 186, 3, 84, 110);
-		//anime->GetActionData( temp )->SetMotionData(2, 187, 3, 84, 110);
-		//anime->GetActionData( temp )->SetMotionData(3, 188, 3, 84, 110);
-		//anime->GetActionData( temp )->SetMotionData(4, 189, 3, 84, 110);
-		//anime->GetActionData( temp )->SetMotionData(5, 190, 3, 84, 110);
-		//anime->GetActionData( temp )->SetMotionData(6, 191, 3, 84, 110);
-		//anime->GetActionData( temp )->SetMotionData(7, 192, 3, 84, 110);
-		//anime->GetActionData( temp )->SetMotionData(8, 193, 3, 84, 110);
-		//anime->GetActionData( temp )->SetMotionData(9, 194, 3, 84, 110);
-		//anime->GetActionData( temp )->SetMotionData(10, 195, 3, 84, 110);
-		//anime->GetActionData( temp )->SetMotionData(11, 196, 3, 84, 110);
 
 		anime->GetActionData(temp)->SetMotionData(0, 185, 3, 84, 110);
 		anime->GetActionData(temp)->SetMotionData(1, 186, 3, 84, 110);
@@ -1713,12 +1704,12 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->GetActionData(temp)->SetAttackData(7, 0, 50, 0, -30, 100, ENUM_ATTACK_PROPERTY_HIGH);
 		anime->GetActionData(temp)->SetAttackData(8, 0, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
 		// ダメージなど
-		anime->GetActionData(temp)->SetAttackSpec(3, 100, 0, ENUM_ATTACK_TYPE_RESET);
-		anime->GetActionData(temp)->SetAttackSpec(4, 100, 0, ENUM_ATTACK_TYPE_RESET);
-		anime->GetActionData(temp)->SetAttackSpec(5, 100, 0, ENUM_ATTACK_TYPE_RESET);
-		anime->GetActionData(temp)->SetAttackSpec(6, 100, 0, ENUM_ATTACK_TYPE_RESET);
-		anime->GetActionData(temp)->SetAttackSpec(7, 100, 0, ENUM_ATTACK_TYPE_RESET);
-		anime->GetActionData(temp)->SetAttackSpec(8, 100, 0, ENUM_ATTACK_TYPE_RESET);
+		anime->GetActionData(temp)->SetAttackSpec(3, 100, 0, 0);
+		anime->GetActionData(temp)->SetAttackSpec(4, 100, 0, 0);
+		anime->GetActionData(temp)->SetAttackSpec(5, 100, 0, 0);
+		anime->GetActionData(temp)->SetAttackSpec(6, 100, 0, 0);
+		anime->GetActionData(temp)->SetAttackSpec(7, 100, 0, 0);
+		anime->GetActionData(temp)->SetAttackSpec(8, 100, 0, 0);
 
 		// THROW MISS
 		temp = DOT_WILL_ANIME_THROW_MISS;
