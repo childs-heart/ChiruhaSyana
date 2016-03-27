@@ -1417,8 +1417,8 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->GetActionData( 8 )->SetMotionData( 1, 46, 3, 62, 109 );
 		anime->GetActionData( 8 )->SetMotionData( 2, 47, 3, 62, 109 );
 */
-		// AttackHIGH(for+HIGH)
-		temp = DOT_WILL_ANIME_ATTACK_HIGH_FOR;
+		// 
+        temp = DOT_WILL_ANIME_ATTACK_EX;
 		anime->CreateAction( temp, 15 );
 		anime->GetActionData( temp )->SetMotionData( 0, 56, 5, 126, 132 );
 		anime->GetActionData( temp )->SetMotionData( 1, 57, 4, 126, 132 );
@@ -2495,7 +2495,7 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->GetActionData( 16 )->SetMotionData( 3, 158, 0, 69, 95 );
 		anime->GetActionData( 16 )->SetMotionData( 4, 159, 0, 44, 118 );
 
-		// DOT_SHA_040.(JUMP_BACK_DUSH)	
+		// DOT_SHA_040.(JUMP_BACK_DUSH)
 		anime->CreateAction( 17, 3 );
 		anime->GetActionData( 17 )->SetMotionData( 0, 74, 3, 44, 114 );
 		anime->GetActionData( 17 )->SetMotionData( 1, 75, 4, 44, 114 );

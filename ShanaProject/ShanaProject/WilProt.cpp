@@ -357,9 +357,6 @@ bool CWilProt::Move()
 		case ENUM_TESTCHAR_STATE_ATTACK_EX:
 			break;
 
-		case ENUM_TESTCHAR_STATE_ATTACK_HIGH_FOR:
-			break;
-
 		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_LOW:
 			if( m_Flame == 6 ){
 				ChangeState( ENUM_TESTCHAR_STATE_CROUCH );
@@ -378,30 +375,24 @@ bool CWilProt::Move()
 			}
 			break;
 
-//		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX:
-//			if( m_Flame > 5 ){
-//				ChangeState( ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX_START );
-//			}
-//			break;
+		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX:
+			if( m_Flame > 5 ){
+				ChangeState( ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX_START );
+			}
+			break;
 
-//		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_HIGH:
-//			if (m_Flame > 5) {
-//				ChangeState(ENUM_TESTCHAR_STATE_CROUCH_ATTACK_HIGH_START);
-//			}
-//			break;
-
-		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_HIGH_START:
+		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX_START:
 			if( m_Flame <= 20 ){
 				AddVector( ((20-m_Flame)/2 + 2) * m_Dir , 0 ) ;
 			}
 			else{
 //				AddVector( m_Dir * 58, 0 ) ;
 				AddVector( m_Dir * 40, 0 ) ;
-				ChangeState( ENUM_TESTCHAR_STATE_CROUCH_ATTACK_HIGH_END );
+				ChangeState( ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX_END );
 			}
 			break;
 
-		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_HIGH_END:
+		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX_END:
 			if( m_Flame > 5 ){
 //				AddVector( m_Dir * 26, 0 ) ;
 				ChangeState( ENUM_TESTCHAR_STATE_CROUCH );
@@ -735,16 +726,16 @@ bool CWilProt::Action()
 				if( standard & COMMAND_DOWN ){
 					ChangeState( ENUM_TESTCHAR_STATE_CROUCH_ATTACK_HIGH );
 				}
-				else if( standard & COMMAND_FORWARD ){
-					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_HIGH_FOR );
-				}
+//				else if( standard & COMMAND_FORWARD ){
+//					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_EX );
+//				}
 				else{
 					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_HIGH );
 				}
 			}
-//			else if( standard & COMMAND_ATTACK_EX ){
-//				ChangeState( ENUM_TESTCHAR_STATE_ATTACK_EX );
-//			}
+			else if( standard & COMMAND_ATTACK_EX ){
+				ChangeState( ENUM_TESTCHAR_STATE_ATTACK_EX );
+			}
 
 			else if( standard & COMMAND_UP ){
 				ChangeState( ENUM_TESTCHAR_STATE_JUMP_SETUP );
@@ -808,7 +799,7 @@ bool CWilProt::Action()
 					ChangeState( ENUM_TESTCHAR_STATE_CROUCH_ATTACK_HIGH );
 				}
 				else{
-					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_HIGH_FOR );
+					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_EX );
 				}
 			}
 
@@ -868,7 +859,7 @@ bool CWilProt::Action()
 					ChangeState( ENUM_TESTCHAR_STATE_CROUCH_ATTACK_HIGH );
 				}
 				else if( standard & COMMAND_FORWARD ){
-					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_HIGH_FOR );
+					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_EX );
 				}
 				else{
 					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_HIGH );
@@ -928,23 +919,23 @@ bool CWilProt::Action()
 					ChangeState( ENUM_TESTCHAR_STATE_CROUCH_ATTACK_HIGH );
 				}
 				else if( standard & COMMAND_FORWARD ){
-					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_HIGH_FOR );
+					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_EX );
 				}
 				else{
 					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_HIGH );
 				}
 			}
-//			else if( standard & COMMAND_ATTACK_EX ){
-//				if( standard & COMMAND_DOWN ){
-//					ChangeState( ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX );
-//				}
+			else if( standard & COMMAND_ATTACK_EX ){
+				if( standard & COMMAND_DOWN ){
+					ChangeState( ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX );
+				}
 //				else if( standard & COMMAND_FORWARD ){
 //					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_EX );
 //				}
 //				else{
 //					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_HIGH );
 //				}
-//			}
+			}
 
 			else if( standard & COMMAND_NONE_DIR ){
 				ChangeState( ENUM_TESTCHAR_STATE_NEUTRAL );
@@ -1011,9 +1002,9 @@ bool CWilProt::Action()
 			else if( standard & COMMAND_ATTACK_MID ){
 				ChangeState( ENUM_TESTCHAR_STATE_JUMP_ATTACK_MID );
 			}
-//			else if( standard & COMMAND_ATTACK_EX ){
-//				ChangeState( ENUM_TESTCHAR_STATE_JUMP_ATTACK_EX );
-//			}
+			else if( standard & COMMAND_ATTACK_EX ){
+				ChangeState( ENUM_TESTCHAR_STATE_JUMP_ATTACK_EX );
+			}
 
 			else if( standard & COMMAND_MAKE_UP ){
 				if( CanJump() ){
@@ -1112,7 +1103,7 @@ bool CWilProt::Action()
 			}
 			break;
 
-		case ENUM_TESTCHAR_STATE_ATTACK_HIGH_FOR:
+		case ENUM_TESTCHAR_STATE_ATTACK_EX:
 			// ƒLƒƒƒ“ƒZƒ‹”»’è
 			if( m_ActionSpec.CanCancel( m_Flame, m_HittedAttack ) ){
 				if( special == 4 ){
@@ -1150,9 +1141,9 @@ bool CWilProt::Action()
 				else if( standard & COMMAND_ATTACK_MID ){
 					ChangeState( ENUM_TESTCHAR_STATE_JUMP_ATTACK_MID );
 				}
-//				else if( standard & COMMAND_ATTACK_EX ){
-//					ChangeState( ENUM_TESTCHAR_STATE_JUMP_ATTACK_EX );
-//				}
+				else if( standard & COMMAND_ATTACK_EX ){
+					ChangeState( ENUM_TESTCHAR_STATE_JUMP_ATTACK_EX );
+				}
 
 				else if( standard & COMMAND_MAKE_UP ){
 					if( CanJump() ){
@@ -1475,15 +1466,6 @@ void CWilProt::ChangeState( int state )
 			m_ActionSpec.SetSpec( false, 20, 20, 0 );
 			break;
 
-		case ENUM_TESTCHAR_STATE_ATTACK_HIGH_FOR:
-			m_Parameter.m_SpGauge += 25;
-			//			StartAir( (float)5 * m_Dir ,(float)1.0f, 0 );
-			ChangeAnime(DOT_WILL_ANIME_ATTACK_HIGH_FOR, 0);
-			m_EnableDir = FALSE;
-			sub = ENUM_TESTCHAR_SUB_STATE_STAND;
-			m_ActionSpec.SetSpec(false, 20, 20, 0);
-			break;
-
 		case ENUM_TESTCHAR_STATE_JUMP_SETUP:
 			IncreaseJump();
 			ChangeAnime( DOT_WILL_ANIME_JUMP , 0 ) ;
@@ -1563,14 +1545,21 @@ void CWilProt::ChangeState( int state )
 			m_ActionSpec.SetSpec( false, 30, 30, 0 );
 			break;
 
-		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_HIGH_START:
+		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX:
+//TBD			ChangeAnime( DOT_WILL_ANIME_CROUCH_ATTACK_EX , 0 ) ;
+			m_EnableDir		= FALSE;
+			sub = ENUM_TESTCHAR_SUB_STATE_CROUCH;
+			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
+			break;
+
+		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX_START:
 //TBD			ChangeAnime( 67 , 0 ) ;
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_CROUCH;
 			m_ActionSpec.SetSpec( false, 10000, 0, 0 );
 			break;
 
-		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_HIGH_END:
+		case ENUM_TESTCHAR_STATE_CROUCH_ATTACK_EX_END:
 //TBD			ChangeAnime( 68 , 0 ) ;
 			m_EnableDir		= FALSE;
 			sub = ENUM_TESTCHAR_SUB_STATE_CROUCH;
