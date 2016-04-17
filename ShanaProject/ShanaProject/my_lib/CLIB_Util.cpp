@@ -320,24 +320,23 @@ void CTextureGroupManager::SetupTextureGroup( CTextureGroup* tex, int no, int pa
 		tex->LoadTexture( 149, "Dot_Wil_419_003.bmp", 0 );
 
 		// special 1
-		tex->LoadTexture( 151, "Dot_Wil_801_001.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 152, "Dot_Wil_801_002.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 153, "Dot_Wil_801_003.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 154, "Dot_Wil_801_004.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 155, "Dot_Wil_801_005.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 156, "Dot_Wil_801_006.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 157, "Dot_Wil_801_007.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 158, "Dot_Wil_801_008.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 159, "Dot_Wil_801_009.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 160, "Dot_Wil_801_010.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 161, "Dot_Wil_801_011.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 162, "Dot_Wil_801_012.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 163, "Dot_Wil_801_013.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 164, "Dot_Wil_801_014.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 165, "Dot_Wil_801_015.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 166, "Dot_Wil_801_016.bmp", 0, stPaletteTemp );
-		tex->LoadTexture( 167, "Dot_Wil_801_017.bmp", 0, stPaletteTemp );
-//		break;
+		tex->LoadTexture( 151, "Dot_Wil_801_001.bmp", 0 );
+		tex->LoadTexture( 152, "Dot_Wil_801_002.bmp", 0 );
+		tex->LoadTexture( 153, "Dot_Wil_801_003.bmp", 0 );
+		tex->LoadTexture( 154, "Dot_Wil_801_004.bmp", 0 );
+		tex->LoadTexture( 155, "Dot_Wil_801_005.bmp", 0 );
+		tex->LoadTexture( 156, "Dot_Wil_801_006.bmp", 0 );
+		tex->LoadTexture( 157, "Dot_Wil_801_007.bmp", 0 );
+		tex->LoadTexture( 158, "Dot_Wil_801_008.bmp", 0 );
+		tex->LoadTexture( 159, "Dot_Wil_801_009.bmp", 0 );
+		tex->LoadTexture( 160, "Dot_Wil_801_010.bmp", 0 );
+		tex->LoadTexture( 161, "Dot_Wil_801_011.bmp", 0 );
+		tex->LoadTexture( 162, "Dot_Wil_801_012.bmp", 0 );
+		tex->LoadTexture( 163, "Dot_Wil_801_013.bmp", 0 );
+		tex->LoadTexture( 164, "Dot_Wil_801_014.bmp", 0 );
+		tex->LoadTexture( 165, "Dot_Wil_801_015.bmp", 0 );
+		tex->LoadTexture( 166, "Dot_Wil_801_016.bmp", 0 );
+		tex->LoadTexture( 167, "Dot_Wil_801_017.bmp", 0 );
 
 		// damage down
 //		tex->LoadTexture(170, "Dot_Wil_207_001.bmp", 0, stPaletteTemp);
@@ -346,62 +345,55 @@ void CTextureGroupManager::SetupTextureGroup( CTextureGroup* tex, int no, int pa
 		// attackl low
 //		tex->LoadTexture(175, "Dot_Wil_406_001.bmp", 0, stPaletteTemp);
 //		tex->LoadTexture(176, "Dot_Wil_406_002.bmp", 0, stPaletteTemp);
-//		break;
 
 		// attackl mid
-		tex->LoadTexture(180, "Dot_Wil_407_001.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(181, "Dot_Wil_407_002.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(182, "Dot_Wil_407_003.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(183, "Dot_Wil_407_004.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(184, "Dot_Wil_407_005.bmp", 0, stPaletteTemp);
-//		break;
+		tex->LoadTexture(180, "Dot_Wil_407_001.bmp", 0 );
+		tex->LoadTexture(181, "Dot_Wil_407_002.bmp", 0 );
+		tex->LoadTexture(182, "Dot_Wil_407_003.bmp", 0 );
+		tex->LoadTexture(183, "Dot_Wil_407_004.bmp", 0 );
+		tex->LoadTexture(184, "Dot_Wil_407_005.bmp", 0 );
 
 		// attackl jump high
-		tex->LoadTexture(185, "Dot_Wil_418_001.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(186, "Dot_Wil_418_002.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(187, "Dot_Wil_418_003.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(188, "Dot_Wil_418_004.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(189, "Dot_Wil_418_005.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(190, "Dot_Wil_418_006.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(191, "Dot_Wil_418_007.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(192, "Dot_Wil_418_008.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(193, "Dot_Wil_418_009.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(194, "Dot_Wil_418_010.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(195, "Dot_Wil_418_011.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(196, "Dot_Wil_418_012.bmp", 0, stPaletteTemp);
-//		break;
+		tex->LoadTexture(185, "Dot_Wil_418_001.bmp", 0 );
+		tex->LoadTexture(186, "Dot_Wil_418_002.bmp", 0 );
+		tex->LoadTexture(187, "Dot_Wil_418_003.bmp", 0 );
+		tex->LoadTexture(188, "Dot_Wil_418_004.bmp", 0 );
+		tex->LoadTexture(189, "Dot_Wil_418_005.bmp", 0 );
+		tex->LoadTexture(190, "Dot_Wil_418_006.bmp", 0 );
+		tex->LoadTexture(191, "Dot_Wil_418_007.bmp", 0 );
+		tex->LoadTexture(192, "Dot_Wil_418_008.bmp", 0 );
+		tex->LoadTexture(193, "Dot_Wil_418_009.bmp", 0 );
+		tex->LoadTexture(194, "Dot_Wil_418_010.bmp", 0 );
+		tex->LoadTexture(195, "Dot_Wil_418_011.bmp", 0 );
+		tex->LoadTexture(196, "Dot_Wil_418_012.bmp", 0 );
 
 		// throw miss
-		tex->LoadTexture(198, "Dot_Wil_431_001.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(199, "Dot_Wil_431_002.bmp", 0, stPaletteTemp);
-//		break;
+		tex->LoadTexture(198, "Dot_Wil_431_001.bmp", 0 );
+		tex->LoadTexture(199, "Dot_Wil_431_002.bmp", 0 );
 
 		// guard
-		tex->LoadTexture(200, "Dot_Wil_501_001.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(201, "Dot_Wil_501_002.bmp", 0, stPaletteTemp);
-//		break;
+		tex->LoadTexture(200, "Dot_Wil_501_001.bmp", 0 );
+		tex->LoadTexture(201, "Dot_Wil_501_002.bmp", 0 );
 
 		// air guard
-		tex->LoadTexture(203, "Dot_Wil_502_001.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(204, "Dot_Wil_502_002.bmp", 0, stPaletteTemp);
-//		break;
+		tex->LoadTexture(203, "Dot_Wil_502_001.bmp", 0 );
+		tex->LoadTexture(204, "Dot_Wil_502_002.bmp", 0 );
 
 		// crounch guard
-		tex->LoadTexture(206, "Dot_Wil_503_001.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(207, "Dot_Wil_503_002.bmp", 0, stPaletteTemp);
-//		break;
+		tex->LoadTexture(206, "Dot_Wil_503_001.bmp", 0 );
+		tex->LoadTexture(207, "Dot_Wil_503_002.bmp", 0 );
 
 		// special 2
-		tex->LoadTexture(210, "Dot_Wil_802_001.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(211, "Dot_Wil_802_002.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(212, "Dot_Wil_802_003.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(213, "Dot_Wil_802_004.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(214, "Dot_Wil_802_005.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(215, "Dot_Wil_802_006.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(216, "Dot_Wil_802_007.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(217, "Dot_Wil_802_008.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(218, "Dot_Wil_802_009.bmp", 0, stPaletteTemp);
-		tex->LoadTexture(219, "Dot_Wil_802_010.bmp", 0, stPaletteTemp);
+		tex->LoadTexture(210, "Dot_Wil_802_001.bmp", 0 );
+		tex->LoadTexture(211, "Dot_Wil_802_002.bmp", 0 );
+		tex->LoadTexture(212, "Dot_Wil_802_003.bmp", 0 );
+		tex->LoadTexture(213, "Dot_Wil_802_004.bmp", 0 );
+		tex->LoadTexture(214, "Dot_Wil_802_005.bmp", 0 );
+		tex->LoadTexture(215, "Dot_Wil_802_006.bmp", 0 );
+		tex->LoadTexture(216, "Dot_Wil_802_007.bmp", 0 );
+		tex->LoadTexture(217, "Dot_Wil_802_008.bmp", 0 );
+		tex->LoadTexture(218, "Dot_Wil_802_009.bmp", 0 );
+		tex->LoadTexture(219, "Dot_Wil_802_010.bmp", 0 );
 		break;
 
 		case TEXTURE_NO_SHANA:
@@ -1388,20 +1380,6 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->GetActionData( temp )->SetMotionData( 0, 53, 3, 87, 110 );
 		anime->GetActionData( temp )->SetMotionData( 1, 54, 3, 87, 110 );
 		anime->GetActionData( temp )->SetMotionData( 2, 53, 3, 87, 110 );
-		// 食らい判定
-		anime->GetActionData(temp)->SetWoundData(0, 0, -13, -100, 17, 0);
-		anime->GetActionData(temp)->SetWoundData(0, 1, -25, -60, -13, -50);
-		anime->GetActionData(temp)->SetWoundData(1, 0, -13, -100, 17, 0);
-		anime->GetActionData(temp)->SetWoundData(1, 1, -45, -80, -35, -65);
-		anime->GetActionData(temp)->SetWoundData(1, 2, -35, -75, -13, -60);
-		anime->GetActionData(temp)->SetWoundData(1, 3, -23, -10, 27, 0);
-		anime->GetActionData(temp)->SetWoundData(2, 0, -13, -100, 17, 0);
-		anime->GetActionData(temp)->SetWoundData(2, 1, -25, -60, -13, -50);
-		// 攻撃判定
-		anime->GetActionData(temp)->SetAttackData(1, 0, -45, -80, -35, -65, ENUM_ATTACK_PROPERTY_LOW);
-		// ダメージなど
-		anime->GetActionData(temp)->SetAttackSpec(1, 100, 0, ENUM_ATTACK_TYPE_RESET);
-
 
 		// DUSH back
 		temp = DOT_WILL_ANIME_DUSH_BACK;
@@ -1522,15 +1500,6 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->CreateAction( temp, 2 );
 		anime->GetActionData( temp )->SetMotionData( 0, 90, 3, 83, 111 );
 		anime->GetActionData( temp )->SetMotionData( 1, 91, 3, 83, 111 );
-		
-		anime->GetActionData(temp)->SetWoundData(0, 0, -30, -100, 30, 0);
-		anime->GetActionData(temp)->SetWoundData(1, 0, -30, -100, 30, 0);
-
-		anime->GetActionData(temp)->SetAttackData(0, 0, -40, -40, -30, -30, ENUM_ATTACK_PROPERTY_LOW);
-		anime->GetActionData(temp)->SetAttackData(1, 0, -40, -40, -30, -30, ENUM_ATTACK_PROPERTY_LOW);
-
-		anime->GetActionData(temp)->SetAttackSpec(0, 100, 0, ENUM_ATTACK_TYPE_RESET);
-		anime->GetActionData(temp)->SetAttackSpec(1, 100, 0, ENUM_ATTACK_TYPE_RESET);
 
 		// crouch_damage
 		temp = DOT_WILL_ANIME_CROUCH_DAMAGE;
@@ -1601,7 +1570,7 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->CreateAction( temp, 1 );
 		anime->GetActionData( temp )->SetMotionData( 0, 128, 30, 121, 113 );
 
-		// Jump Attack Middle
+		// Jump Attack High
         temp = DOT_WILL_ANIME_JUMP_ATTACK_MID;
 		anime->CreateAction( temp, 5 );
 		anime->GetActionData( temp )->SetMotionData( 0, 130, 4, 118, 136 );
@@ -1609,27 +1578,8 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->GetActionData( temp )->SetMotionData( 2, 132, 3, 121, 113 );
 		anime->GetActionData( temp )->SetMotionData( 3, 133, 10, 121, 113 );
 		anime->GetActionData( temp )->SetMotionData( 4, 134, 3, 121, 113 );
-		// 食らい判定
-		anime->GetActionData(temp)->SetWoundData(0, 0, 0, -150, 0, 0);
-		anime->GetActionData(temp)->SetWoundData(1, 0, 0, -150, 0, 0);
-		anime->GetActionData(temp)->SetWoundData(2, 0, 0, -150, 0, 0);
-		anime->GetActionData(temp)->SetWoundData(3, 0, 0, -150, 0, 0);
-		anime->GetActionData(temp)->SetWoundData(4, 0, 0, -150, 0, 0);
-		// 攻撃判定
-		anime->GetActionData(temp)->SetAttackData(1, 0, -30, -50, 0, 40, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(2, 0, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(2, 1, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(2, 2, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(2, 3, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(3, 0, -120, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
-		// ダメージなど
-		anime->GetActionData(temp)->SetAttackSpec(1, 300, 0, 0);
-		anime->GetActionData(temp)->SetAttackSpec(2, 300, 0, 0);
-		anime->GetActionData(temp)->SetAttackSpec(3, 3000, 0, 0);
 
-
-
-		// crouch attack mid
+		// crouch attack low
 		temp = DOT_WILL_ANIME_CROUCH_ATTACK_MID;
 		anime->CreateAction( temp, 7 );
 		anime->GetActionData( temp )->SetMotionData( 0, 140, 3, 84, 110 );
@@ -1639,23 +1589,6 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->GetActionData( temp )->SetMotionData( 4, 144, 3, 84, 110 );
 		anime->GetActionData( temp )->SetMotionData( 5, 145, 3, 84, 110 );
 		anime->GetActionData( temp )->SetMotionData( 6, 146, 3, 84, 110 );
-		// 食らい判定
-		anime->GetActionData(temp)->SetWoundData(0, 0, -25, -70, 20, 0);
-		anime->GetActionData(temp)->SetWoundData(1, 0, -25, -70, 20, 0);
-		anime->GetActionData(temp)->SetWoundData(2, 0, -35, -70, 10, 0);
-		anime->GetActionData(temp)->SetWoundData(3, 0, -45, -70, 0, 0);
-		anime->GetActionData(temp)->SetWoundData(3, 1, -75, -40, -5, -30);
-		anime->GetActionData(temp)->SetWoundData(4, 0, -45, -70, 0, 0);
-		anime->GetActionData(temp)->SetWoundData(4, 0, -75, -43, -5, -33);
-		anime->GetActionData(temp)->SetWoundData(5, 0, -35, -70, 10, 0);
-		anime->GetActionData(temp)->SetWoundData(5, 1, -75, -43, -5, -33);
-		anime->GetActionData(temp)->SetWoundData(6, 0, -25, -70, 20, 0);
-		// 攻撃判定
-		anime->GetActionData(temp)->SetAttackData(3, 0, -75, -40, -10, -30, ENUM_ATTACK_PROPERTY_MIDDLE);
-		anime->GetActionData(temp)->SetAttackData(4, 0, -75, -43, -10, -33, ENUM_ATTACK_PROPERTY_MIDDLE);
-		// ダメージなど
-		anime->GetActionData(temp)->SetAttackSpec(3, 100, 0, 0);
-		anime->GetActionData(temp)->SetAttackSpec(4, 100, 0, 0);
 
 		// jump attack low
 		temp = DOT_WILL_ANIME_JUMP_ATTACK_LOW;
@@ -1663,19 +1596,6 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		anime->GetActionData( temp )->SetMotionData( 0, 147, 3, 84, 110 );
 		anime->GetActionData( temp )->SetMotionData( 1, 148, 3, 84, 110 );
 		anime->GetActionData( temp )->SetMotionData( 2, 149, 3, 84, 110 );
-		// 食らい判定
-		anime->GetActionData(temp)->SetWoundData(0, 0, -30, -100, 30, 0);
-		anime->GetActionData(temp)->SetWoundData(1, 0, -30, -100, 30, 0);
-		anime->GetActionData(temp)->SetWoundData(2, 0, -30, -100, 30, 0);
-		// 攻撃判定
-		anime->GetActionData(temp)->SetAttackData(0, 0, -78, -50, -24, -42, ENUM_ATTACK_PROPERTY_LOW);
-		anime->GetActionData(temp)->SetAttackData(1, 0, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_LOW);
-		anime->GetActionData(temp)->SetAttackData(2, 0, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_LOW);
-		// ダメージなど
-		anime->GetActionData(temp)->SetAttackSpec(0, 100, 0, 0);
-		anime->GetActionData(temp)->SetAttackSpec(1, 100, 0, 0);
-		anime->GetActionData(temp)->SetAttackSpec(2, 100, 0, 0);
-
 
 		// special 1
 		temp = DOT_WILL_ANIME_SPECIAL1;
@@ -1738,46 +1658,18 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 		// JUMP ATTACK HIGH
 		temp = DOT_WILL_ANIME_JUMP_ATTACK_HIGH;
 		anime->CreateAction( temp, 12 );
-
-		anime->GetActionData(temp)->SetMotionData(0, 185, 3, 84, 110);
-		anime->GetActionData(temp)->SetMotionData(1, 186, 3, 84, 110);
-		anime->GetActionData(temp)->SetMotionData(2, 187, 3, 84, 110);
-		anime->GetActionData(temp)->SetMotionData(3, 188, 3, 84, 110);
-		anime->GetActionData(temp)->SetMotionData(4, 189, 3, 84, 110);
-		anime->GetActionData(temp)->SetMotionData(5, 190, 3, 84, 110);
-		anime->GetActionData(temp)->SetMotionData(6, 191, 3, 84, 110);
-		anime->GetActionData(temp)->SetMotionData(7, 192, 3, 84, 110);
-		anime->GetActionData(temp)->SetMotionData(8, 193, 3, 84, 110);
-		anime->GetActionData(temp)->SetMotionData(9, 194, 3, 84, 110);
-		anime->GetActionData(temp)->SetMotionData(10, 195, 3, 84, 110);
-		anime->GetActionData(temp)->SetMotionData(11, 196, 3, 84, 110);
-		// 食らい判定
-		anime->GetActionData(temp)->SetWoundData(0, 0, -30, -100, 30, 0);
-		anime->GetActionData(temp)->SetWoundData(1, 0, -30, -100, 30, 0);
-		anime->GetActionData(temp)->SetWoundData(2, 0, -30, -100, 30, 0);
-		anime->GetActionData(temp)->SetWoundData(3, 0, -30, -100, 30, 0);
-		anime->GetActionData(temp)->SetWoundData(4, 0, -30, -100, 30, 0);
-		anime->GetActionData(temp)->SetWoundData(5, 0, -30, -100, 30, 0);
-		anime->GetActionData(temp)->SetWoundData(6, 0, -30, -100, 30, 0);
-		anime->GetActionData(temp)->SetWoundData(7, 0, -30, -100, 30, 0);
-		anime->GetActionData(temp)->SetWoundData(8, 0, -30, -100, 30, 0);
-		anime->GetActionData(temp)->SetWoundData(9, 0, -30, -100, 30, 0);
-		anime->GetActionData(temp)->SetWoundData(10, 0, -30, -100, 30, 0);
-		anime->GetActionData(temp)->SetWoundData(11, 0, -30, -100, 30, 0);
-		// 攻撃判定
-		anime->GetActionData(temp)->SetAttackData(3, 0, -78, -50, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(4, 0, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(5, 0, 0, 0, -80, 100, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(6, 0, 0, 0, -80, 100, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(7, 0, 50, 0, -30, 100, ENUM_ATTACK_PROPERTY_HIGH);
-		anime->GetActionData(temp)->SetAttackData(8, 0, -78, -64, -24, -42, ENUM_ATTACK_PROPERTY_HIGH);
-		// ダメージなど
-		anime->GetActionData(temp)->SetAttackSpec(3, 100, 0, 0);
-		anime->GetActionData(temp)->SetAttackSpec(4, 100, 0, 0);
-		anime->GetActionData(temp)->SetAttackSpec(5, 100, 0, 0);
-		anime->GetActionData(temp)->SetAttackSpec(6, 100, 0, 0);
-		anime->GetActionData(temp)->SetAttackSpec(7, 100, 0, 0);
-		anime->GetActionData(temp)->SetAttackSpec(8, 100, 0, 0);
+		anime->GetActionData( temp )->SetMotionData(0, 185, 3, 84, 110 );
+		anime->GetActionData( temp )->SetMotionData(1, 186, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(2, 187, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(3, 188, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(4, 189, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(5, 190, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(6, 191, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(7, 192, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(8, 193, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(9, 194, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(10, 195, 3, 84, 110);
+		anime->GetActionData( temp )->SetMotionData(11, 196, 3, 84, 110);
 
 		// THROW MISS
 		temp = DOT_WILL_ANIME_THROW_MISS;
