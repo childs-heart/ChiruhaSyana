@@ -171,7 +171,7 @@ bool CWilProt::Move()
 	m_Flame++;
 	switch( m_State ){
 		case ENUM_TESTCHAR_STATE_JUMP_SETUP:
-
+			ChangeAnime(DOT_WILL_ANIME_JUMP, 0);
 			break;
 
 		case ENUM_TESTCHAR_STATE_JUMP_FORWARD:
@@ -215,10 +215,13 @@ bool CWilProt::Move()
 
 			if( ( m_AirIncrease <= 1.0f ) &&
 				( m_AirIncrease > 0.0f ) ){
+				// 落下モーション
 				ChangeAnime( DOT_WILL_ANIME_BACK_JUMP + 2 , 0 ) ;
 			}
 			else if( ( m_AirIncrease <= 0.0f ) &&
 				( m_Anime.GetCurrentActionNo() != DOT_WILL_ANIME_BACK_JUMP + 3 )){
+				// XXX:ここに入るのが早すぎ
+				// 着地モーション
 				ChangeAnime( DOT_WILL_ANIME_BACK_JUMP + 3 , 0 ) ;
 			}
 
