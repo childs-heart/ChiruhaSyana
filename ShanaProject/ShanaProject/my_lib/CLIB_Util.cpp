@@ -1700,12 +1700,40 @@ void CAnimationManager::SetupAnimation( CAnimeSpec* anime, int no )
 
 		// ATTACK MID
 		temp = DOT_WILL_ANIME_ATTACK_MID;
-		anime->CreateAction( temp, 5 );
-		anime->GetActionData( temp )->SetMotionData(0, 180, 3, 87, 113);
-		anime->GetActionData( temp )->SetMotionData(1, 181, 3, 87, 113);
-		anime->GetActionData( temp )->SetMotionData(2, 182, 3, 87, 113);
-		anime->GetActionData( temp )->SetMotionData(3, 183, 3, 87, 113);
-		anime->GetActionData( temp )->SetMotionData(4, 184, 3, 87, 113);
+		anime->CreateAction( temp, 6 );
+		anime->GetActionData(temp)->SetMotionData(0, 180, 1, 87, 113);
+		anime->GetActionData(temp)->SetMotionData(1, 181, 2, 87, 113);
+		anime->GetActionData(temp)->SetMotionData(2, 182, 3, 87, 113);
+		anime->GetActionData(temp)->SetMotionData(3, 183, 3, 87, 113);
+		anime->GetActionData(temp)->SetMotionData(4, 184, 3, 87, 113);
+		anime->GetActionData(temp)->SetMotionData(5, 180, 3, 87, 113);
+		// H‚ç‚¢”»’è
+		anime->GetActionData(temp)->SetWoundData(0, 0, -13, -96, 13, -43);
+		anime->GetActionData(temp)->SetWoundData(0, 1, -15, -43, 16, 3);
+		anime->GetActionData(temp)->SetWoundData(1, 0, -27, -89, -7, -63);
+		anime->GetActionData(temp)->SetWoundData(1, 1, -20, -63, -2, -39);
+		anime->GetActionData(temp)->SetWoundData(1, 2, -22, -39, -3, 3);
+		anime->GetActionData(temp)->SetWoundData(2, 0, -40, -84, -18, -60);
+		anime->GetActionData(temp)->SetWoundData(2, 1, -34, -60, -12, -38);
+		anime->GetActionData(temp)->SetWoundData(2, 2, -37, -38, -5, 3);
+		anime->GetActionData(temp)->SetWoundData(2, 3, -69, -66, -60, -50);
+		anime->GetActionData(temp)->SetWoundData(2, 4, -60, -59, -36, -50);
+		anime->GetActionData(temp)->SetWoundData(3, 0, -42, -86, -19, -60);
+		anime->GetActionData(temp)->SetWoundData(3, 1, -35, -60, -13, -38);
+		anime->GetActionData(temp)->SetWoundData(3, 2, -38, -38, -6, -3);
+		anime->GetActionData(temp)->SetWoundData(3, 3, -69, -66, -60, -50);
+		anime->GetActionData(temp)->SetWoundData(3, 4, -60, -59, -36, -50);
+		anime->GetActionData(temp)->SetWoundData(4, 0, -27, -89, -7, -62);
+		anime->GetActionData(temp)->SetWoundData(4, 1, -21, -62, -2, -30);
+		anime->GetActionData(temp)->SetWoundData(4, 2, -25, -30, -4, 4);
+		anime->GetActionData(temp)->SetWoundData(4, 3, -45, -60, -21, -48);
+		anime->GetActionData(temp)->SetWoundData(5, 0, -13, -96, 13, -43);
+		anime->GetActionData(temp)->SetWoundData(5, 1, -15, -43, 16, 3);
+		// UŒ‚”»’è
+		anime->GetActionData(temp)->SetAttackData(2, 0, -69, -66, -60, -50, ENUM_ATTACK_PROPERTY_MIDDLE);
+		anime->GetActionData(temp)->SetAttackData(2, 1, -60, -59, -36, -50, ENUM_ATTACK_PROPERTY_MIDDLE);
+		anime->GetActionData(temp)->SetAttackData(3, 0, -69, -66, -60, -50, ENUM_ATTACK_PROPERTY_MIDDLE);
+		anime->GetActionData(temp)->SetAttackData(3, 1, -60, -59, -36, -50, ENUM_ATTACK_PROPERTY_MIDDLE);
 
 		// JUMP ATTACK HIGH
 		temp = DOT_WILL_ANIME_JUMP_ATTACK_HIGH;
