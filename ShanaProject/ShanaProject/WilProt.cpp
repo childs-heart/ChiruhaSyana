@@ -729,17 +729,10 @@ bool CWilProt::Action()
 				if( standard & COMMAND_DOWN ){
 					ChangeState( ENUM_TESTCHAR_STATE_CROUCH_ATTACK_HIGH );
 				}
-//				else if( standard & COMMAND_FORWARD ){
-//					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_EX );
-//				}
 				else{
 					ChangeState( ENUM_TESTCHAR_STATE_ATTACK_HIGH );
 				}
 			}
-			else if( standard & COMMAND_ATTACK_EX ){
-				ChangeState( ENUM_TESTCHAR_STATE_ATTACK_EX );
-			}
-
 			else if( standard & COMMAND_UP ){
 				ChangeState( ENUM_TESTCHAR_STATE_JUMP_SETUP );
 			}
@@ -1077,7 +1070,7 @@ bool CWilProt::Action()
 					}
 				}
 			}
-			if( m_Flame > 20 ){
+			if( m_Flame > 15 ){
 				ChangeState( ENUM_TESTCHAR_STATE_NEUTRAL );
 			}
 			break;
